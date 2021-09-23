@@ -1,13 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Freestyle Canada`,
+    description: `Your hub for Freestyle Canada World Cup details and information.`,
+    author: `Freestyle Canada`,
+    siteUrl: `https://worldcups.freestylecanada.ski`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js") // Optional: Load custom Tailwind CSS configuration
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -16,17 +26,52 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`],
+          placeholder: `blurred`,
+          quality: 100,
+          backgroundColor: `transparent`,
+          tracedSVGOptions: {},
+          blurredOptions: {},
+          jpgOptions: {},
+          pngOptions: {},
+          webpOptions: {},
+          avifOptions: {},
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `fc-world-cup-microsite`,
+        short_name: `fc-wc`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon-freestyle_canada.png`, 
+      },
+    },
+    {
+      resolve: `gatsby-plugin-react-intl`,
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/intl`,
+        // supported language
+        languages: [`en`, 'fr'],
+        // language file path
+        defaultLanguage: `en`,
+        redirectDefaultLanguageToRoot: true,
+        redirect: false,
+        // redirectComponent: require.resolve(`./src/components/redirect.js`),
+        fallbackLanguage: `en`,
+      },
+    },
+    {
+      resolve: `gatsby-source-ical`,
+      options: {
+        name: `moguls`,
+        url: `https://data.fis-ski.com/services/public/icalendar-feed-fis-events.html?seasoncode=2022&sectorcode=FS&categorycode=WC&disciplinecode=MO%2CDM`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

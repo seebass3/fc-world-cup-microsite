@@ -1,0 +1,13 @@
+{
+    "title": "COUPE DU MONDE",
+    "description": "Votre centre d'information pour les Coupes du monde Freestyle Canada.",
+    "notfound": {
+      "header": "PAGE NON TROUVÉE",
+      "description": "La page que vous avez demandée ne peut-être obtenue, la tristesse...",
+      "home": "Site Web Freestyle Canada"
+    },
+    "calgary_landing": {
+      "title": "Snow Rodeo",
+      "header": "Plus de détails seront bientôt disponibles..."
+    }
+  }

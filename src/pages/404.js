@@ -1,14 +1,29 @@
-import * as React from "react"
+import React from "react"
+import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {Link} from 'gatsby'
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import SEO from "../components/seo"
 
-const NotFoundPage = () => (
-  <Layout>
-    <Seo title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+const NotFoundPage = ({intl}) => (
+    <Layout>
+        <SEO lang={intl.locale} title={`404: ${intl.formatMessage({id: "title"})}`}/>
+        <div className="container mx-auto p-10">
+            <h1>
+                <FormattedMessage id="notfound.header"/>
+            </h1>
+            <p>
+                <FormattedMessage id="notfound.description"/>
+            </p>
+            <Link to="https://freestylecanada.ski/">
+            <button
+                aria-label="button"
+                className="mt-4 bg-fcPurple inline-block uppercase text-white font-ultra px-12 py-3">
+                <FormattedMessage id="notfound.home"/>
+            </button>
+            </Link>
+        </div>
+    </Layout>
 )
 
-export default NotFoundPage
+export default injectIntl(NotFoundPage)

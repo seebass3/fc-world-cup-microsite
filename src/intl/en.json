@@ -1,0 +1,13 @@
+{
+    "title": "WORLD CUP",
+    "description": "Your hub for Freestyle Canada World Cup details and information.",
+    "notfound": {
+      "header": "NOT FOUND",
+      "description": "You just hit a route that doesn't exist... the sadness.",
+      "home": "Freestyle Canada Home"
+    },
+    "calgary_landing": {
+      "title": "Snow Rodeo",
+      "header": "More details coming soon..."
+    }
+  }

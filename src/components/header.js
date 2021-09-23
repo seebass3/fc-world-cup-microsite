@@ -11,10 +11,8 @@ const Navigation = styled.nav `
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
-  margin: 0 auto;
-  padding: 0 1.25vw;
+  padding: 0 1.5vw;
   z-index: 2;
-  align-self: center;
   transition: all 1s ease-in-out;
   align-items: center;
 `

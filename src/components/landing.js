@@ -2,7 +2,7 @@ import React from "react";
 import {useStaticQuery, graphql} from "gatsby";
 import {GatsbyImage} from "gatsby-plugin-image"
 import {BgImage} from 'gbimage-bridge';
-import { Link } from 'gatsby-plugin-react-intl'
+import {Link} from 'gatsby-plugin-react-intl'
 
 const Landing = () => {
     const data = useStaticQuery(graphql `
@@ -30,36 +30,38 @@ const Landing = () => {
     const lerelaisImage = data.lerelais.childImageSharp.gatsbyImageData
 
     return (
-        <BgImage
-            className="h-screen"
-            image={bgImage}
-            style={{
-            minWidth: "100%",
-            minHeight: "100vh"
-        }}>
-            <div id="overlay"></div>
-            <div
-                className="grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 grid-rows-2 h-full">
-                <div className="p-5 lg:row-start-1">
-                    <Link to="/le-relais">
-                        <GatsbyImage
-                            className="h-full"
-                            objectFit="contain"
-                            image={lerelaisImage}
-                            alt="Le Relais World Cup Logo"/>
-                    </Link>
+        <section id="home-landing">
+            <BgImage
+                className="h-screen"
+                image={bgImage}
+                style={{
+                minWidth: "100%",
+                minHeight: "100vh"
+            }}>
+                <div id="overlay"></div>
+                <div
+                    className="grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 grid-rows-2 h-full">
+                    <div className="p-5 lg:row-start-1">
+                        <Link to="/le-relais">
+                            <GatsbyImage
+                                className="h-full"
+                                objectFit="contain"
+                                image={lerelaisImage}
+                                alt="Le Relais World Cup Logo"/>
+                        </Link>
+                    </div>
+                    <div className="p-5 lg:row-start-2">
+                        <Link to="/tremblant">
+                            <GatsbyImage
+                                className="h-full"
+                                objectFit="contain"
+                                image={tremblantImage}
+                                alt="Tremblant World Cup Logo"/>
+                        </Link>
+                    </div>
                 </div>
-                <div className="p-5 lg:row-start-2">
-                    <Link to="/tremblant">
-                        <GatsbyImage
-                            className="h-full"
-                            objectFit="contain"
-                            image={tremblantImage}
-                            alt="Tremblant World Cup Logo"/>
-                    </Link>
-                </div>
-            </div>
-        </BgImage>
+            </BgImage>
+        </section>
     )
 };
 

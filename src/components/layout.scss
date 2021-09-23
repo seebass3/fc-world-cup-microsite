@@ -171,18 +171,44 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'AmsiProNarw-Ultra', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  color: inherit;
+  font-family: 'AmsiPro-Bold', serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 1.1rem;
+  line-height: 1.1;
 }
 
 .hero {
   font-size: 2.45rem;
   text-transform: uppercase;
+}
+
+.hero-relais__heading::after {
+  content: ' ';
+  display: block;
+  width: 1.75rem;
+  height: .3125rem;
+  border-radius: 2px;
+  background-color: #da7b3b;
+  margin: 0.9375rem 0;
 }
 
 mark {
@@ -374,24 +400,6 @@ textarea {
 
 *:after {
   box-sizing: inherit;
-}
-
-h2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
-  line-height: 1.1;
 }
 
 h3 {

@@ -17,15 +17,18 @@ const CalgaryLanding = ({intl}) => {
     const bgImage = data.background.childImageSharp.gatsbyImageData
 
     return (
-        <BgImage
-            className="h-screen"
-            image={bgImage}
-            style={{
-            minWidth: "100%",
-            minHeight: "100vh"
-        }}>
-            <h1 className="hero text-white flex flex-wrap items-center justify-center h-full p-5"><FormattedMessage id="calgary_landing.header"/></h1>
-        </BgImage>
+        <section id="calgary-landing">
+            <BgImage
+                className="h-screen"
+                image={bgImage}
+                style={{
+                minWidth: "100%",
+                minHeight: "100vh"
+            }}>
+                <h1
+                    className="hero text-white flex flex-wrap items-center justify-center h-full p-5"><FormattedMessage id="calgary_landing.header"/></h1>
+            </BgImage>
+        </section>
     )
 };
 

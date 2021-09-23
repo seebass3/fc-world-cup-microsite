@@ -12,12 +12,12 @@ const Landing = () => {
           gatsbyImageData(layout: FULL_WIDTH)
         }
       }
-      tremblant: file(relativePath: {eq: "tremblant-logo.png"}) {
+      tremblant: file(relativePath: {eq: "tremblant-logo-scaled.png"}) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED)
         }
       }
-      lerelais: file(relativePath: {eq: "relais-logo.png"}) {
+      lerelais: file(relativePath: {eq: "relais-logo-scaled.png"}) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED)
         }

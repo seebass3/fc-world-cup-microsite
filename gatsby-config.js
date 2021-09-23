@@ -31,7 +31,7 @@ module.exports = {
       options: {
         defaults: {
           formats: [`auto`],
-          placeholder: `blurred`,
+          placeholder: `none`,
           quality: 100,
           backgroundColor: `transparent`,
           tracedSVGOptions: {},

@@ -1,5 +1,5 @@
 {
-    "title": "COUPE DU MONDE",
+    "title": "Coupe du monde",
     "description": "Votre centre d'information pour les Coupes du monde Freestyle Canada.",
     "notfound": {
       "header": "PAGE NON TROUVÉE",
@@ -12,7 +12,13 @@
     },
     "relais_info": {
       "header": "2 - 5 janv. 2022 | Le Relais, QC",
-      "sub_header": "COUPE DU MONDE MACKENZIE INVESTMENTS PRÉSENTÉE PAR TOYOTA",
+      "sub_header": "Coupe du monde de sauts Mackenzie Investments présentée par Toyota",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "button": "Plus de détails"
+    },
+    "tremblant_info": {
+      "header": "5 - 8 janv. 2022 | Mont Tremblant, QC",
+      "sub_header": "Coupe du monde de bosses Mackenzie Investments présentée par Toyota",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "button": "Plus de détails"
     }

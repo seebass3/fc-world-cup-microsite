@@ -211,6 +211,16 @@ h2 {
   margin: 0.9375rem 0;
 }
 
+.hero-tremblant__heading::after {
+  content: ' ';
+  display: block;
+  width: 1.75rem;
+  height: .3125rem;
+  border-radius: 2px;
+  background-color: #a41890;
+  margin: 0.9375rem 0;
+}
+
 mark {
   background-color: #ff0;
   color: #000;

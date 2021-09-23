@@ -38,10 +38,10 @@ const Navbox = styled.div `
   z-index: -1;
 
   @media (max-width: 768px) {
-    position: fixed;
-    margin-top: 3.25rem;
+    position: absolute;
+    margin-top: 127px;
     flex-direction: column;
-    height: 100vh;
+    height: 15rem;
     width: 100%;
     justify-content: center;
     background: #a41890;

@@ -6,15 +6,15 @@ import {Link} from 'react-scroll';
 import {IconContext} from "react-icons";
 import {IoIosArrowDown} from 'react-icons/io';
 
-const RelaisLanding = () => {
+const TremblantLanding = () => {
     const data = useStaticQuery(graphql `
-    query relaisLanding{
-      background: file(relativePath: {eq: "relais-wc-bg.jpg"}) {
+    query TremblantLanding{
+      background: file(relativePath: {eq: "tremblant-wc-bg.jpg"}) {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH)
         }
       }
-      lerelais: file(relativePath: {eq: "relais-logo-scaled.png"}) {
+      lerelais: file(relativePath: {eq: "tremblant-logo-scaled.png"}) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED)
         }
@@ -23,7 +23,7 @@ const RelaisLanding = () => {
         `)
 
     const bgImage = data.background.childImageSharp.gatsbyImageData
-    const lerelaisImage = data.lerelais.childImageSharp.gatsbyImageData
+    const tremblantImage = data.lerelais.childImageSharp.gatsbyImageData
 
     return (
         <section id="relais-landing">
@@ -40,13 +40,13 @@ const RelaisLanding = () => {
                         <GatsbyImage
                             className="h-full"
                             objectFit="contain"
-                            image={lerelaisImage}
+                            image={tremblantImage}
                             alt="Le Relais World Cup Logo"/>
                     </div>
                 </div>
                 <IconContext.Provider
                     value={{
-                    color: "#da7b3b",
+                    color: "#a41890",
                     className: "w-20 h-20 inline-block",
                     style: {
                         verticalAlign: 'middle'
@@ -62,4 +62,4 @@ const RelaisLanding = () => {
     )
 };
 
-export default RelaisLanding
+export default TremblantLanding

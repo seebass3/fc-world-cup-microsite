@@ -3,10 +3,10 @@ import {useStaticQuery, graphql} from "gatsby";
 import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
 import {BgImage} from 'gbimage-bridge';
 
-const RelaisInfo = ({intl}) => {
+const TremblantInfo = ({intl}) => {
     const data = useStaticQuery(graphql `
-    query relaisInfo{
-      thumbnail: file(relativePath: {eq: "relais-wc-bg.jpg"}) {
+    query tremblantInfo{
+      image: file(relativePath: {eq: "tremblant-card.jpg"}) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED)
         }
@@ -14,7 +14,7 @@ const RelaisInfo = ({intl}) => {
     }
         `)
 
-    const bgImage = data.thumbnail.childImageSharp.gatsbyImageData
+    const bgImage = data.image.childImageSharp.gatsbyImageData
 
     return (
         <section id="relais-info">
@@ -25,21 +25,21 @@ const RelaisInfo = ({intl}) => {
                         <BgImage
                             objectFit="contain"
                             image={bgImage}
-                            alt="Le Relais"
+                            alt="Mont Tremblant"
                             style={{
                             minWidth: "100%",
                             minHeight: "100%"
                         }}/>
                     </div>
                     <div className="lg:px-8 py-8 mx-auto">
-                        <div className="hero-relais__heading">
-                            <h1><FormattedMessage id="relais_info.header"/></h1><br/>
-                            <h2><FormattedMessage id="relais_info.sub_header"/></h2>
+                        <div className="hero-tremblant__heading">
+                            <h1><FormattedMessage id="tremblant_info.header"/></h1><br/>
+                            <h2><FormattedMessage id="tremblant_info.sub_header"/></h2>
                         </div>
-                        <p><FormattedMessage id="relais_info.text"/></p>
+                        <p><FormattedMessage id="tremblant_info.text"/></p>
                         <a
-                            class="bg-fcOrange text-white text-20 font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
-                            href=""><FormattedMessage id="relais_info.button"/></a>
+                            class="bg-fcPurple text-white text-20 font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
+                            href=""><FormattedMessage id="tremblant_info.button"/></a>
                     </div>
                 </div>
             </div>
@@ -47,4 +47,4 @@ const RelaisInfo = ({intl}) => {
     )
 };
 
-export default injectIntl(RelaisInfo)
+export default injectIntl(TremblantInfo)

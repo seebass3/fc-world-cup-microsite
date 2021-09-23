@@ -1,5 +1,5 @@
 {
-    "title": "WORLD CUP",
+    "title": "World Cup",
     "description": "Your hub for Freestyle Canada World Cup details and information.",
     "notfound": {
       "header": "NOT FOUND",
@@ -12,7 +12,13 @@
     },
     "relais_info": {
       "header": "Jan 2-5. 2022 | Le Relais, QC",
-      "sub_header": "2022 MACKENZIE INVESTMENTS FREESTYLE FIS WORLD CUP PRESENTED BY TOYOTA",
+      "sub_header": "2022 Mackenzie Investments Freestyle FIS Aerials World Cup Presented by Toyota",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "button": "Event Info"
+    },
+    "tremblant_info": {
+      "header": "Jan 5-8. 2022 | Mont Tremblant, QC",
+      "sub_header": "2022 Mackenzie Investments Freestyle FIS Moguls World Cup Presented by Toyota",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "button": "Event Info"
     }

@@ -3,6 +3,7 @@ import {useStaticQuery, graphql} from "gatsby";
 import {GatsbyImage} from "gatsby-plugin-image"
 import {BgImage} from 'gbimage-bridge';
 import {Link} from 'gatsby-plugin-react-intl'
+import styled from 'styled-components'
 
 const Landing = () => {
     const data = useStaticQuery(graphql `
@@ -14,12 +15,12 @@ const Landing = () => {
       }
       tremblant: file(relativePath: {eq: "tremblant-logo-scaled.png"}) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
+          gatsbyImageData(layout: CONSTRAINED width: 500)
         }
       }
       lerelais: file(relativePath: {eq: "relais-logo-scaled.png"}) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
+          gatsbyImageData(layout: CONSTRAINED width: 500)
         }
       }
     }
@@ -33,28 +34,24 @@ const Landing = () => {
         <section id="home-landing">
             <BgImage
                 className="h-screen"
-                image={bgImage}
-                style={{
-                minWidth: "100%",
-                minHeight: "100vh"
-            }}>
+                image={bgImage}>
                 <div id="overlay"></div>
                 <div
-                    className="grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 grid-rows-2 h-full">
-                    <div className="p-5 lg:row-start-1">
-                        <Link to="/le-relais">
+                    className="grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 grid-rows-2 justify-items-center h-full">
+                    <div className="p-5 lg:row-start-1 w-full h-full">
+                        <Link to="/le-relais" className="w-full h-full">
                             <GatsbyImage
-                                className="h-full"
-                                objectFit="contain"
+                                style={{ height: "100%", width: "100%" }}
+                                imgStyle={{ objectFit: "contain" }}
                                 image={lerelaisImage}
                                 alt="Le Relais World Cup Logo"/>
                         </Link>
                     </div>
-                    <div className="p-5 lg:row-start-2">
-                        <Link to="/tremblant">
+                    <div className="p-5 lg:row-start-2 w-full h-full">
+                        <Link to="/tremblant" className="w-full h-full">
                             <GatsbyImage
-                                className="h-full"
-                                objectFit="contain"
+                                style={{ height: "100%", width: "100%" }}
+                                imgStyle={{ objectFit: "contain" }}
                                 image={tremblantImage}
                                 alt="Tremblant World Cup Logo"/>
                         </Link>

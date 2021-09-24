@@ -50,6 +50,8 @@ module.exports = {
         short_name: `fc-wc`,
         start_url: `/`,
         icon: `src/images/icon-freestyle_canada.png`, 
+        background_color: `#f7f0eb`,
+        theme_color: `#a41890`,
       },
     },
     {

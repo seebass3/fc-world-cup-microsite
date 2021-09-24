@@ -17,7 +17,7 @@ const Logo = () => {
     const image = getImage(data.placeholderImage)
 
     return (
-        <Link to="/"><GatsbyImage image={image} alt="Freestyle Canada Logo"/></Link>
+        <Link to="/"><GatsbyImage className="float-left" image={image} alt="Freestyle Canada Logo"/></Link>
     )
 };
 

@@ -16,7 +16,7 @@ const TremblantLanding = () => {
       }
       lerelais: file(relativePath: {eq: "tremblant-logo-scaled.png"}) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
+          gatsbyImageData(layout: CONSTRAINED width:500)
         }
       }
     }
@@ -29,17 +29,13 @@ const TremblantLanding = () => {
         <section id="relais-landing">
             <BgImage
                 className="h-hero"
-                image={bgImage}
-                style={{
-                minWidth: "100%",
-                minHeight: "100%"
-            }}>
+                image={bgImage}>
                 <div id="overlay"></div>
-                <div className="flex h-full">
-                    <div className="p-10">
+                <div className="flex h-full items-center">
+                    <div className="p-10 h-full">
                         <GatsbyImage
-                            className="h-full"
-                            objectFit="contain"
+                            style={{ height: "100%", width: "100%" }}
+                            imgStyle={{ objectFit: "contain" }}
                             image={tremblantImage}
                             alt="Le Relais World Cup Logo"/>
                     </div>

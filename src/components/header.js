@@ -34,6 +34,7 @@ const Navbox = styled.div `
   justify-content: flex-end;
   align-items: center;
   z-index: -1;
+  float: right;
 
   @media (max-width: 768px) {
     position: absolute;

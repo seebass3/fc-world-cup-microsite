@@ -30,6 +30,7 @@
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
+    "@netlify/plugin-gatsby": "^1.0.3",
     "autoprefixer": "^10.3.4",
     "babel-plugin-styled-components": "^1.13.2",
     "gatsby-plugin-postcss": "^4.13.0",

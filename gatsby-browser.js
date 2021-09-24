@@ -2,7 +2,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load = {
     custom: {
-      families: ['AmsiProNarw-Regular', 'AmsiProNarw-Ultra', 'AmsiPro-Light', 'AmsiProNarw-LightItalic', 'AmsiPro-Bold', 'AmsiPro-Thin'],
+      families: ['AmsiProNarw-Regular', 'AmsiProNarw-Ultra', 'AmsiPro-Bold'],
       urls: ['src/components/fonts.scss']
     }
   };

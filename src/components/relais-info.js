@@ -38,7 +38,7 @@ const RelaisInfo = ({intl}) => {
                         </div>
                         <p><FormattedMessage id="relais_info.text"/></p>
                         <a
-                            class="bg-fcOrange text-white text-20 font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
+                            class="bg-fcOrange text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
                             href=""><FormattedMessage id="relais_info.button"/></a>
                     </div>
                 </div>

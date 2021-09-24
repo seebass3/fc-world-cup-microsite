@@ -7,10 +7,13 @@ module.exports = {
         fcBlue: "#7a99ac",
         fcRed: "#e4002b",
         fcPurple: "#a41890",
-        fcOrange: "#da7b3b"
+        fcOrange: "#da7b3b",
+        fisBlue: "#081a92",
+        fisYellow: "#f0ab00",
       },
       height: {
         hero: "75vh",
+        half: "50vh",
       }
     },
     fontFamily: {

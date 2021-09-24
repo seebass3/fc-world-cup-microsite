@@ -8,7 +8,7 @@ const CalgaryLanding = ({intl}) => {
     query calgaryLanding{
       background: file(relativePath: {eq: "calgary-wc-bg.jpg"}) {
         childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH)
+          gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
         }
       }
     }

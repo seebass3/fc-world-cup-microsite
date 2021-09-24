@@ -38,7 +38,7 @@ const TremblantInfo = ({intl}) => {
                         </div>
                         <p><FormattedMessage id="tremblant_info.text"/></p>
                         <a
-                            class="bg-fcPurple text-white text-20 font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
+                            class="bg-fcPurple text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
                             href=""><FormattedMessage id="tremblant_info.button"/></a>
                     </div>
                 </div>

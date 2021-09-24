@@ -11,7 +11,7 @@ const RelaisLanding = () => {
     query relaisLanding{
       background: file(relativePath: {eq: "relais-wc-bg.jpg"}) {
         childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH)
+          gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
         }
       }
       lerelais: file(relativePath: {eq: "relais-logo-scaled.png"}) {

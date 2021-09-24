@@ -10,7 +10,7 @@ const Landing = () => {
     query landingPage {
       background: file(relativePath: {eq: "background.jpg"}) {
         childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH)
+          gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
         }
       }
       tremblant: file(relativePath: {eq: "tremblant-logo-scaled.png"}) {

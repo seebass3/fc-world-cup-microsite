@@ -1,12 +1,17 @@
 import React from "react";
 import {useStaticQuery, graphql} from "gatsby";
-import {BgImage} from 'gbimage-bridge';
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {GatsbyImage} from "gatsby-plugin-image"
+import {IntlContextConsumer, injectIntl} from "gatsby-plugin-react-intl"
 
 const CalgaryLanding = ({intl}) => {
     const data = useStaticQuery(graphql `
     query calgaryLanding{
-      background: file(relativePath: {eq: "calgary-wc-bg.jpg"}) {
+      bannerEn: file(relativePath: {eq: "snowrodeo-banner-en.jpg"}) {
+        childImageSharp {
+          gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
+        }
+      }
+    bannerFr: file(relativePath: {eq: "snowrodeo-banner-fr.jpg"}) {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
         }
@@ -14,20 +19,23 @@ const CalgaryLanding = ({intl}) => {
     }
         `)
 
-    const bgImage = data.background.childImageSharp.gatsbyImageData
-
+    const imageEn = data.bannerEn.childImageSharp.gatsbyImageData
+    const imageFr = data.bannerFr.childImageSharp.gatsbyImageData
+  
     return (
         <section id="calgary-landing">
-            <BgImage
-                className="h-screen"
-                image={bgImage}
-                style={{
-                minWidth: "100%",
-                minHeight: "100vh"
-            }}>
-                <h1
-                    className="hero text-white flex flex-wrap items-center justify-center h-full p-5"><FormattedMessage id="calgary_landing.header"/></h1>
-            </BgImage>
+          <IntlContextConsumer>
+                {({languages, language: currentLocale}) => languages.map(language => (
+                  <GatsbyImage
+                  image={currentLocale === language ? 
+                     imageEn : imageFr
+                    }
+                  style={{
+                  minWidth: "100%"
+              }}/>
+                ))
+}
+            </IntlContextConsumer>
         </section>
     )
 };

@@ -115,7 +115,7 @@ const NavCalgary = styled(Link)`
   width: 0%;
   content: ".";
   color: transparent;
-  background: #ffffff;
+  background: #c7ab81;
   height: 4px;
   -webkit-transition: all 0.4s ease-in;
 }
@@ -128,7 +128,7 @@ const NavCalgary = styled(Link)`
   width: 100%;
   content: ".";
   color: transparent;
-  background: #ffffff;
+  background: #c7ab81;
   height: 4px;
   -webkit-transition: all 0.4s ease-in;
 }

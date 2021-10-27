@@ -31,7 +31,7 @@ const RelaisLanding = () => {
                 className="h-hero"
                 image={bgImage}>
                 <div id="overlay"></div>
-                <div className="flex min-h-ful items-center">
+                <div className="flex h-full items-center">
                     <div className="p-10 h-full">
                         <GatsbyImage
                             style={{ height: "100%", width: "100%" }}

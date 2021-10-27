@@ -10,6 +10,7 @@ module.exports = {
         fcOrange: "#da7b3b",
         fisBlue: "#081a92",
         fisYellow: "#f0ab00",
+        rodeoGold: "#c7ab81",
       },
       height: {
         hero: "75vh",

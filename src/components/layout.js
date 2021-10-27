@@ -7,6 +7,8 @@ import {GatsbyImage, getImage} from "gatsby-plugin-image"
 import Header from "./header"
 import Language from "./language";
 import "./layout.scss"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Layout = ({children, intl}) => {
     const data = useStaticQuery(graphql `
@@ -27,7 +29,7 @@ const Layout = ({children, intl}) => {
             <Header siteTitle={intl.formatMessage({id: "title"})}/>
             <main>{children}</main>
             <footer
-                className="text-white bg-fcBlue p-10 font-regular flex flex-col items-center">
+                className="text-white bg-black p-10 font-regular flex flex-col items-center">
                 <a href="https://freestylecanada.ski/">
                     <GatsbyImage className="mb-5" image={image} alt="Freestyle Canada Logo"/>
                 </a>

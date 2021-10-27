@@ -11,7 +11,7 @@ const TremblantLanding = () => {
     query TremblantLanding{
       background: file(relativePath: {eq: "tremblant-wc-bg.jpg"}) {
         childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH)
+          gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
         }
       }
       lerelais: file(relativePath: {eq: "tremblant-logo-scaled.png"}) {

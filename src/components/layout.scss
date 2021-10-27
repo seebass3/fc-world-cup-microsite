@@ -154,6 +154,16 @@ h2 {
   margin: 0.9375rem 0;
 }
 
+.hero-winsport__heading::after {
+  content: ' ';
+  display: block;
+  width: 1.75rem;
+  height: .3125rem;
+  border-radius: 2px;
+  background-color: #c7ab81;
+  margin: 0.9375rem 0;
+}
+
 mark {
   background-color: #ff0;
   color: #000;
@@ -750,7 +760,7 @@ ul#menu-social {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.calgary-active {
+.winsport-active {
   text-decoration: none;
   font-family: "AmsiProNarw-Ultra", sans-serif;
   font-size: 1.5rem;

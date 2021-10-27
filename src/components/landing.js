@@ -1,6 +1,5 @@
 import React from "react";
 import {useStaticQuery, graphql} from "gatsby";
-import {GatsbyImage} from "gatsby-plugin-image"
 import {BgImage} from 'gbimage-bridge';
 import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
 import {Link} from 'gatsby-plugin-react-intl'
@@ -37,7 +36,6 @@ const settings = {
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: true,
-    fade: true,
     nextArrow: (
         <div>
             <div className="prev-slick-arrow">
@@ -97,10 +95,10 @@ const Landing = ({intl}) => {
                             className="bg-gradient-to-t lg:bg-gradient-to-tr from-black via-transparent to-transparent h-full w-full absolute z-0"></div>
                         <div className="flex h-full items-center relative">
                             <div className="p-10 h-full text-white flex flex-col justify-end">
-                                <h1><FormattedMessage id="calgary_info.header"/></h1>
-                                <a
+                                <h1><FormattedMessage id="winsport_info.header"/></h1>
+                                <Link
                                     class="bg-rodeoGold text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
-                                    href=""><FormattedMessage id="learnmore"/></a>
+                                    to="/winsport"><FormattedMessage id="learnmore"/></Link>
                             </div>
                         </div>
                     </BgImage>
@@ -110,9 +108,9 @@ const Landing = ({intl}) => {
                         <div className="flex h-full items-center relative">
                             <div className="p-10 h-full text-white flex flex-col justify-end">
                                 <h1><FormattedMessage id="relais_info.header"/></h1>
-                                <a
+                                <Link
                                     class="bg-fcOrange text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
-                                    href=""><FormattedMessage id="learnmore"/></a>
+                                    to="/le-relais"><FormattedMessage id="learnmore"/></Link>
                             </div>
                         </div>
                     </BgImage>
@@ -122,9 +120,9 @@ const Landing = ({intl}) => {
                         <div className="flex h-full items-center relative">
                             <div className="p-10 h-full text-white flex flex-col justify-end">
                                 <h1><FormattedMessage id="tremblant_info.header"/></h1>
-                                <a
+                                <Link
                                     class="bg-fcPurple text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
-                                    href=""><FormattedMessage id="learnmore"/></a>
+                                    to="/tremblant"><FormattedMessage id="learnmore"/></Link>
                             </div>
                         </div>
                     </BgImage>

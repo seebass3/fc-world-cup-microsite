@@ -6,27 +6,27 @@ import {Link} from 'react-scroll';
 import {IconContext} from "react-icons";
 import {IoIosArrowDown} from 'react-icons/io';
 
-const RelaisLanding = () => {
+const WinsportLanding = () => {
     const data = useStaticQuery(graphql `
-    query relaisLanding{
-      background: file(relativePath: {eq: "relais-background.jpg"}) {
+    query winsportLanding{
+      background: file(relativePath: {eq: "rodeo-background.jpg"}) {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
         }
       }
-      lerelais: file(relativePath: {eq: "relais-logo-scaled.png"}) {
+      rodeo: file(relativePath: {eq: "rodeo-logo-scaled.jpg"}) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED width: 500)
+          gatsbyImageData(layout: CONSTRAINED width:500)
         }
       }
     }
         `)
 
-    const bgImage = data.background.childImageSharp.gatsbyImageData
-    const lerelaisImage = data.lerelais.childImageSharp.gatsbyImageData
-
+        const bgImage = data.background.childImageSharp.gatsbyImageData
+        const rodeoImage = data.rodeo.childImageSharp.gatsbyImageData
+  
     return (
-        <section id="relais-landing">
+        <section id="winsport-landing">
             <BgImage
                 className="h-hero"
                 image={bgImage}>
@@ -36,13 +36,13 @@ const RelaisLanding = () => {
                         <GatsbyImage
                             style={{ height: "100%", width: "100%" }}
                             imgStyle={{ objectFit: "contain" }}
-                            image={lerelaisImage}
-                            alt="Le Relais World Cup Logo"/>
+                            image={rodeoImage}
+                            alt="Winsport World Cup Logo"/>
                     </div>
                 </div>
                 <IconContext.Provider
                     value={{
-                    color: "#da7b3b",
+                    color: "#c7ab81",
                     className: "w-20 h-20 inline-block",
                     style: {
                         verticalAlign: 'middle'
@@ -58,4 +58,4 @@ const RelaisLanding = () => {
     )
 };
 
-export default RelaisLanding
+export default WinsportLanding;

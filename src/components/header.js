@@ -94,7 +94,7 @@ const Hamburger = styled.div `
     top: 10px;
   }
 `
-const NavCalgary = styled(Link)`
+const NavWinsport = styled(Link)`
   text-decoration: none;
   font-family: "AmsiProNarw-Ultra", sans-serif;
   font-size: 1.5rem;
@@ -245,10 +245,10 @@ const Navbar = () => {
     const [navbarOpen,
         setNavbarOpen] = useState(false)
 
-        const calgaryLocation = props => {
+        const winsportLocation = props => {
           const currentLocation = props.pathname
-          if (currentLocation.includes("calgary")) {
-            return { className: "calgary-active" }
+          if (currentLocation.includes("winsport")) {
+            return { className: "winsport-active" }
           }
         }
 
@@ -276,11 +276,11 @@ const Navbar = () => {
             {navbarOpen
                 ? (
                     <Navbox onClick={() => setNavbarOpen(!navbarOpen)}>
-                        <NavCalgary
+                        <NavWinsport
                             onClick={() => setNavbarOpen(!navbarOpen)}
-                            to="/calgary"
-                            title="Calgary">Calgary
-                        </NavCalgary>
+                            to="/winsport"
+                            title="Winsport">Winsport
+                        </NavWinsport>
                         <NavRelais
                             onClick={() => setNavbarOpen(!navbarOpen)}
                             to="/le-relais"
@@ -293,7 +293,7 @@ const Navbar = () => {
                 )
                 : (
                     <Navbox open>
-                        <NavCalgary getProps={({ location }) => calgaryLocation(location)} to="/calgary" title="Calgary">Calgary</NavCalgary>
+                        <NavWinsport getProps={({ location }) => winsportLocation(location)} to="/winsport" title="Winsport">Winsport</NavWinsport>
                         <NavRelais getProps={({ location }) => relaisLocation(location)} to="/le-relais" title="Le Relais">Le Relais</NavRelais>
                         <NavTremblant getProps={({ location }) => tremblantLocation(location)} to="/tremblant" title="Tremblant">Tremblant</NavTremblant>
                     </Navbox>

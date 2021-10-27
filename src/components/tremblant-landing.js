@@ -30,7 +30,7 @@ const TremblantLanding = () => {
             <BgImage
                 className="h-hero"
                 image={bgImage}>
-                <div id="overlay"></div>
+                <div className="bg-gradient-to-t lg:bg-gradient-to-r from-white via-transparent to-transparent h-full w-full absolute z-0"></div>
                 <div className="flex h-full items-center">
                     <div className="p-10 h-full">
                         <GatsbyImage

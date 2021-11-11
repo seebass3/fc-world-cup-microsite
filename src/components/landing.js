@@ -97,7 +97,7 @@ const Landing = ({intl}) => {
                             <div className="p-10 h-full text-white flex flex-col justify-end">
                                 <h1><FormattedMessage id="winsport_info.header"/></h1>
                                 <Link
-                                    class="bg-rodeoGold text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
+                                    className="bg-rodeoGold text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
                                     to="/winsport"><FormattedMessage id="learn_more"/></Link>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ const Landing = ({intl}) => {
                             <div className="p-10 h-full text-white flex flex-col justify-end">
                                 <h1><FormattedMessage id="relais_info.header"/></h1>
                                 <Link
-                                    class="bg-fcOrange text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
+                                    className="bg-fcOrange text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
                                     to="/le-relais"><FormattedMessage id="learn_more"/></Link>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ const Landing = ({intl}) => {
                             <div className="p-10 h-full text-white flex flex-col justify-end">
                                 <h1><FormattedMessage id="tremblant_info.header"/></h1>
                                 <Link
-                                    class="bg-fcPurple text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
+                                    className="bg-fcPurple text-white font-ultra mt-4 uppercase flex items-center justify-center w-64 h-12"
                                     to="/tremblant"><FormattedMessage id="learn_more"/></Link>
                             </div>
                         </div>

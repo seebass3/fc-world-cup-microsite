@@ -17,7 +17,7 @@ const WinsportContact = ({intl}) => (
                     </div>
                     <div className="flex mt-4 mb-4">
                         <a
-                            class="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12"
+                            className="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12"
                             href="https://forms.gle/CzszinQxV6PMJa3j9"
                             rel="noopener noreferrer"
                             target="_blank"><FormattedMessage id="contact.click"/></a>

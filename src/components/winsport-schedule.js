@@ -112,7 +112,7 @@ const WinsportSchedule = ({intl}) => {
                 </div>
             </div>
             <a
-                class="bg-rodeoGold text-white font-ultra mt-8 mx-auto uppercase flex items-center justify-center w-64 h-12"
+                className="bg-rodeoGold text-white font-ultra mt-8 mx-auto uppercase flex items-center justify-center w-64 h-12"
                 href="https://medias3.fis-ski.com/pdf/2022/FS/8150/2022FS8150PROG.pdf"
                 rel="noopener noreferrer"
                 to

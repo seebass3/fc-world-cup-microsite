@@ -76,7 +76,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Cassie Sharpe</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/cassie-sharpe/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Noah Bowman</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/noah-bowman/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Rachael Karker</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/rachael-karker/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Simon d'Artois</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/simon-dartois/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Brendan Mackay</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/brendan-mackay/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Andrew Longino</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/andrew-longino/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -166,7 +166,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Amy Fraser</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/amy-fraser/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Dylan Marineau</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/dylan-marineau/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ const WinsportAthletes = ({intl}) => {
                     <div className="text-center py-8 sm:py-6">
                         <p className="text-xl text-gray-700 font-bold mb-2">Evan Marineau</p>
                         <a
-                            class="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
+                            className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
                             href="https://freestylecanada.ski/team/evan-marineau/"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>

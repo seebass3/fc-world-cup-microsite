@@ -52,7 +52,7 @@ const MogulSchedule = ({intl}) => {
                                                     .substring(item.summary.indexOf('FS') + 2)}</td>
                                             <td>
                                                 <a
-                                                    class="bg-fisYellow text-white text-xs font-ultra uppercase flex items-center justify-center w-32 h-8"
+                                                    className="bg-fisYellow text-white text-xs font-ultra uppercase flex items-center justify-center w-32 h-8"
                                                     href={item
                                                     .description
                                                     .substring(item.description.indexOf("Startlist:") + 12, item.description.indexOf("Organisation") - 1)}><FormattedMessage id="navigation.info"/></a>

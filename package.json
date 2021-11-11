@@ -30,8 +30,7 @@
     "sass": "^1.43.4",
     "sharp": "^0.29.2",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.3",
-    "webfontloader": "^1.6.28"
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@netlify/plugin-gatsby": "^1.0.3",

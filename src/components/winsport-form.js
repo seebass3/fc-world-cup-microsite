@@ -66,7 +66,8 @@ const WinsportForm = () => {
                                     required={true}
                                     className="form-control bg-grey border-b-2 outline-none border-gray-50 w-full h-10 p-3 text-gray-700"
                                     type="text"
-                                    name="name"/>
+                                    name="name"
+                                    label="your name"/>
                             </div>
 
                             <div className="mb-4">
@@ -75,7 +76,8 @@ const WinsportForm = () => {
                                     required={true}
                                     className="form-control bg-grey border-b-2 outline-none border-gray-50 w-full h-10 p-3 text-gray-700"
                                     type="email"
-                                    name="email"/>
+                                    name="email"
+                                    label="your email"/>
                             </div>
 
                             <div className="mb-4">
@@ -83,7 +85,8 @@ const WinsportForm = () => {
                                 <textarea
                                     required={true}
                                     className="form-control bg-grey border-b-2 outline-none border-gray-50 w-full h-32 p-3 text-gray-700"
-                                    name="message"/>
+                                    name="message"
+                                    label="your message"/>
                             </div>
                             <button
                                 type="submit"

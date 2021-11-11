@@ -38,12 +38,12 @@ const Navbox = styled.div `
 
   @media (max-width: 768px) {
     position: absolute;
-    margin-top: 144px;
+    margin-top: 128px;
     flex-direction: column;
     height: 15rem;
     width: 100%;
     justify-content: center;
-    background: #a41890;
+    background: #000;
     transition: opacity 0.3s ease-in-out;
     opacity: ${props => (props.open
     ? "0"

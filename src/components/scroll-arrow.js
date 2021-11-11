@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {IoIosArrowUp} from 'react-icons/io';
 import {IconContext} from "react-icons";
+import {Link} from 'react-scroll';
 
 const ScrollArrow = () => {
 
@@ -13,10 +14,6 @@ const ScrollArrow = () => {
         } else if (showScroll && window.pageYOffset <= 1500) {
             setShowScroll(false)
         }
-    };
-
-    const scrollTop = () => {
-        window.scrollTo({top: 0, behavior: 'smooth'});
     };
 
     if (typeof window !== 'undefined') {
@@ -32,15 +29,16 @@ const ScrollArrow = () => {
                 verticalAlign: 'middle'
             }
         }}>
+            <Link to="top" title="Scroll to Top" smooth duration={500}>
             <IoIosArrowUp
                 className="scrollTop"
-                onClick={scrollTop}
                 style={{
                 height: 40,
                 display: showScroll
                     ? 'flex'
                     : 'none'
             }}/>
+            </Link>
         </IconContext.Provider>
     );
 }

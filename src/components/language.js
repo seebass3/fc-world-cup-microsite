@@ -9,7 +9,7 @@ const languageName = {
 
 const Language = () => {
     return (
-        <div className="flex items-center justify-end px-2">
+        <div id="top" className="flex items-center justify-end px-2">
             <IntlContextConsumer>
                 {({languages, language: currentLocale}) => languages.map(language => (
                     <a

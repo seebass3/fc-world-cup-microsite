@@ -19,7 +19,9 @@ const ScrollArrow = () => {
         window.scrollTo({top: 0, behavior: 'smooth'});
     };
 
-    window.addEventListener('scroll', checkScrollTop)
+    if (typeof window !== 'undefined') {
+        window.addEventListener('scroll', checkScrollTop)
+    }
 
     return (
         <IconContext.Provider

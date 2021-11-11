@@ -21,7 +21,7 @@ const RelaisInfo = ({intl}) => {
             <div className="container mx-auto">
                 <div
                     className="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center py-10">
-                    <div className="h-full w-full rounded-lg overflow-hidden">
+                    <div className="h-96 lg:h-full w-full rounded-lg overflow-hidden">
                         <BgImage
                             objectFit="contain"
                             image={bgImage}
@@ -36,10 +36,10 @@ const RelaisInfo = ({intl}) => {
                             <h1><FormattedMessage id="relais_info.header"/></h1><br/>
                             <h2><FormattedMessage id="relais_info.sub_header"/></h2>
                         </div>
-                        <p><FormattedMessage id="relais_info.text"/></p>
+                        <p><FormattedMessage id="coming_soon"/></p>
                         <a
                             class="bg-fcOrange text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
-                            href=""><FormattedMessage id="relais_info.button"/></a>
+                            href=""><FormattedMessage id="soon_button"/></a>
                     </div>
                 </div>
             </div>

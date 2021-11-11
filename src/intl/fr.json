@@ -2,31 +2,76 @@
     "title": "Coupe du monde",
     "description": "Votre centre d'information pour les Coupes du monde Freestyle Canada.",
     "notfound": {
-      "header": "PAGE NON TROUVÉE",
-      "description": "La page que vous avez demandée ne peut-être obtenue, la tristesse...",
-      "home": "Site Web Freestyle Canada"
+        "header": "PAGE NON TROUVÉE",
+        "description": "La page que vous avez demandée ne peut-être obtenue, la tristesse...",
+        "home": "Site Web Freestyle Canada"
     },
-    "learnmore": "Plus d'informations",
+    "navigation": {
+        "info": "Détails",
+        "schedule": "Horaire",
+        "athletes": "Athlètes",
+        "contact": "Contact",
+        "partners": "Partenaires"
+    },
+    "coming_soon": "Plus d'information à venir bientôt !",
+    "soon_button": "À venir",
+    "learn_more": "En savoir plus",
+    "submit": "Soumettre",
+    "athletes": "Les athlètes canadiens à surveiller",
+    "fis_calendar": {
+        "schedule": "Autres Coupes du monde à venir",
+        "event": "Événement"
+    },
     "winsport_landing": {
-      "title": "Snow Rodeo",
-      "header": "Plus de détails seront bientôt disponibles..."
+        "title": "Snow Rodeo",
+        "header": "Plus de détails seront bientôt disponibles..."
     },
     "relais_info": {
-      "header": "2 - 5 janv. 2022 | Le Relais, QC",
-      "sub_header": "Coupe du monde de sauts Mackenzie Investments présentée par Toyota",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "button": "Plus de détails"
+        "header": "2 - 5 janv. 2022 | Le Relais, QC",
+        "sub_header": "Coupe du monde de sauts Placements Mackenzie présentée par Toyota",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "button": "Plus de détails"
     },
     "tremblant_info": {
-      "header": "5 - 8 janv. 2022 | Mont Tremblant, QC",
-      "sub_header": "Coupe du monde de bosses Mackenzie Investments présentée par Toyota",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "button": "Plus de détails"
+        "header": "5 - 8 janv. 2022 | Mont Tremblant, QC",
+        "sub_header": "Coupe du monde de bosses Placements Mackenzie présentée par Toyota",
+        "text": "Joignez-vous à nous pour l’un des événements les plus excitants en sol canadien cet hiver! Nous accueillerons les meilleurs skieurs de bosses au monde dans le cadre de la Coupe du monde FIS de bosses au Mont Tremblant à Québec. Quelque 100 athlètes de 15 pays différents rivaliseront d’adresse avec nos athlètes de l’équipe canadienne dans deux épreuve de bosses en simple.",
+        "button": "Plus de détails"
     },
     "winsport_info": {
-      "header": "30 déc. - 1 janv. 2022 | Winsport, AB",
-      "sub_header": "Coupe du monde FIS de freeski demi-lune présentée par Toyota",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "button": "Plus de détails"
+        "header": "30 déc. - 1 janv. 2022 | Winsport, AB",
+        "sub_header": "Coupe du monde FIS de freeski demi-lune présentée par Toyota",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "button": "Plus de détails"
+    },
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "arrival": "Jour d'arrivée",
+    "training": "Journée d'entraînement",
+    "competition": "Jour de compétition",
+    "qualifications": "Jour de qualification",
+    "finals": "Jour de la finale",
+    "finals_night": "Soirée de la finale",
+    "reserve": "Jour de réserve",
+    "departure": "Jour de départ",
+    "full_schedule": "Horaire complet",
+    "media": "Demandes des médias",
+    "contact": {
+        "submitted": "Votre message a été envoyé avec succès !",
+        "not_submitted": "Il y a eu une erreur dans votre soumission, veuillez nous envoyer un courriel à l’adresse suivante : snowrodeo@freestylecanada.ski",
+        "requests": "Demandes des médias",
+        "name": "Votre nom (exigé)",
+        "email": "Vore courriel (exigé)",
+        "message": "Votre message",
+        "get_in_touch": "Communiquer avec les organisateurs de l'évènement :",
+        "form_1": "Ce formulaire doit être rempli pour les demandes d’accréditation des médias au Snow Rodeo 2021.",
+        "form_2": "SVP, complétez le formulaire au complet.",
+        "form_3": "Un représentant des relations publiques communiquera avec vous à l’approche de l’événement pour vous donner plus de détails.",
+        "click": "Cliquez ici"
     }
-  }
+}

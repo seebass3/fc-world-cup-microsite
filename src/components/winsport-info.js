@@ -17,11 +17,11 @@ const WinsportInfo = ({intl}) => {
     const bgImage = data.image.childImageSharp.gatsbyImageData
 
     return (
-        <section id="winsport-info">
+        <section id="event-info">
             <div className="container mx-auto">
                 <div
                     className="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center py-10">
-                    <div className="h-full w-full rounded-lg overflow-hidden">
+                    <div className="h-96 lg:h-full w-full rounded-lg overflow-hidden">
                         <BgImage
                             objectFit="contain"
                             image={bgImage}
@@ -39,7 +39,7 @@ const WinsportInfo = ({intl}) => {
                         <p><FormattedMessage id="winsport_info.text"/></p>
                         <a
                             class="bg-rodeoGold text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
-                            href=""><FormattedMessage id="winsport_info.button"/></a>
+                            href="https://www.fis-ski.com/DB/general/event-details.html?sectorcode=FS&eventid=49238&seasoncode=2022" rel="noopener noreferrer" target="_blank"><FormattedMessage id="winsport_info.button"/></a>
                     </div>
                 </div>
             </div>

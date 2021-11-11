@@ -6,6 +6,7 @@ import {GatsbyImage, getImage} from "gatsby-plugin-image"
 
 import Header from "./header"
 import Language from "./language";
+import ScrollArrow from "./scroll-arrow";
 import "./layout.scss"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -28,6 +29,7 @@ const Layout = ({children, intl}) => {
         <Language />
             <Header siteTitle={intl.formatMessage({id: "title"})}/>
             <main>{children}</main>
+            <ScrollArrow />
             <footer
                 className="text-white bg-black p-10 font-regular flex flex-col items-center">
                 <a href="https://freestylecanada.ski/">

@@ -3,22 +3,36 @@ import * as React from "react"
 import Layout from "../components/layout"
 import WinsportLanding from "../components/winsport-landing"
 import WinsportInfo from "../components/winsport-info"
-import { useIntl } from "gatsby-plugin-react-intl"
+import WinsportSchedule from "../components/winsport-schedule"
+import HalfpipeSchedule from "../components/halfpipe-schedule"
+import WinsportAthletes from "../components/winsport-athletes"
+import WinsportContact from "../components/winsport-contact"
+import {useIntl} from "gatsby-plugin-react-intl"
 import Seo from "../components/seo"
 
 const WinsportPage = () => {
-  const intl = useIntl()
-  return (
-  <Layout>
-  <Seo
-    lang={intl.locale}
-    title={intl.formatMessage({ id: "winsport_landing.title" })}
-    keywords={[`snow rodeo`, 'Winsport world cup', 'Calgary', 'halfpipe', `freestyle canada`, `freestyle events`]}
-  />
-  <WinsportLanding />
-  <WinsportInfo />
-</Layout>
-)
+    const intl = useIntl()
+    return (
+        <Layout>
+            <Seo
+                lang={intl.locale}
+                title={intl.formatMessage({id: "winsport_landing.title"})}
+                keywords={[
+                `snow rodeo`,
+                'Winsport world cup',
+                'Calgary',
+                'halfpipe',
+                `freestyle canada`,
+                `freestyle events`
+            ]}/>
+            <WinsportLanding/>
+            <WinsportInfo/>
+            <WinsportSchedule/>
+            <WinsportAthletes/>
+            <WinsportContact/>
+            <HalfpipeSchedule/>
+        </Layout>
+    )
 }
 
 export default WinsportPage

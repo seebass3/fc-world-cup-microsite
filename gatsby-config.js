@@ -77,6 +77,13 @@ module.exports = {
         url: `https://data.fis-ski.com/services/public/icalendar-feed-fis-events.html?seasoncode=2022&sectorcode=FS&categorycode=WC&disciplinecode=MO%2CDM`,
       },
     },
+    {
+      resolve: `gatsby-source-ical`,
+      options: {
+        name: `halfpipe`,
+        url: `https://data.fis-ski.com/services/public/icalendar-feed-fis-events.html?seasoncode=2022&sectorcode=FS&categorycode=WC&disciplinecode=HP`,
+      },
+    },
     //  `gatsby-plugin-offline`,
      'babel-plugin-styled-components'
   ],

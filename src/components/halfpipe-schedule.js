@@ -2,10 +2,10 @@ import React, {Fragment} from "react";
 import {useStaticQuery, graphql} from "gatsby";
 import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
 
-const MogulSchedule = ({intl}) => {
+const HalfpipeSchedule = ({intl}) => {
     const data = useStaticQuery(graphql `
-    query mogulSchedule {
-        allIcal(filter: {sourceInstanceName: {eq: "moguls"}}) {
+    query halfpipeSchedule {
+        allIcal(filter: {sourceInstanceName: {eq: "halfpipe"}}) {
           nodes {
             start(formatString: "MMMM, DD YYYY")
             location
@@ -19,8 +19,8 @@ const MogulSchedule = ({intl}) => {
     const info = data.allIcal.nodes
 
     return (
-        <section id="mogul-schedule">
-             <div className="text-center pb-12">
+        <section id="halfpipe-schedule" className="py-12">
+            <div className="text-center pb-12">
                 <h1>
                     <FormattedMessage id="fis_calendar.schedule"/>
                 </h1>
@@ -70,4 +70,4 @@ const MogulSchedule = ({intl}) => {
     )
 };
 
-export default injectIntl(MogulSchedule)
+export default injectIntl(HalfpipeSchedule)

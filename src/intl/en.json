@@ -2,31 +2,72 @@
     "title": "World Cup",
     "description": "Your hub for Freestyle Canada World Cup details and information.",
     "notfound": {
-      "header": "NOT FOUND",
-      "description": "You just hit a route that doesn't exist... the sadness.",
-      "home": "Freestyle Canada Home"
+        "header": "NOT FOUND",
+        "description": "You just hit a route that doesn't exist... the sadness.",
+        "home": "Freestyle Canada Home"
     },
-    "learnmore": "Learn More",
-    "winsport_landing": {
-      "title": "Snow Rodeo",
-      "header": "More details coming soon..."
+    "navigation": {
+        "info": "Details",
+        "schedule": "Schedule",
+        "athletes": "Athletes",
+        "contact": "Contact",
+        "partners": "Partners"
+    },
+    "coming_soon": "More information coming soon!",
+    "soon_button": "Coming Soon",
+    "learn_more": "Learn More",
+    "submit": "Submit",
+    "athletes": "Canadian Athletes to Watch",
+    "fis_calendar": {
+        "schedule": "Other Upcoming World Cups",
+        "event": "Event"
     },
     "relais_info": {
-      "header": "Jan 2-5. 2022 | Le Relais, QC",
-      "sub_header": "2022 Mackenzie Investments Freestyle FIS Aerials World Cup Presented by Toyota",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "button": "Event Info"
+        "header": "Jan 2-5. 2022 | Le Relais, QC",
+        "sub_header": "2022 Mackenzie Investments Freestyle FIS Aerials World Cup Presented by Toyota",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "button": "Event Info"
     },
     "tremblant_info": {
-      "header": "Jan 5-8. 2022 | Mont Tremblant, QC",
-      "sub_header": "2022 Mackenzie Investments Freestyle FIS Moguls World Cup Presented by Toyota",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "button": "Event Info"
+        "header": "Jan 5-8. 2022 | Mont Tremblant, QC",
+        "sub_header": "2022 Mackenzie Investments Freestyle FIS Moguls World Cup Presented by Toyota",
+        "text": "Join us for one of the most exciting events on Canadian soil this winter! We will be welcoming the world’s best freestyle moguls skiers to compete in back-to-back FIS World Cup moguls competitions in Mont Tremblant, Québec. Over 100 athletes from 15 different countries will challenge Team Canada in men’s and women’s single moguls. ",
+        "button": "Event Info"
     },
     "winsport_info": {
-      "header": "Dec 30-Jan 1. 2022 | Winsport, AB",
-      "sub_header": "2022 FIS Freeski Halfpipe World Cup Presented by Toyota",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "button": "Event Info"
+        "header": "Dec 30-Jan 1. 2022 | Winsport, AB",
+        "sub_header": "2022 FIS Freeski Halfpipe World Cup Presented by Toyota",
+        "text": "The Snow Rodeo FIS Freeski Halfpipe World Cup, presented by Toyota, is back for it’s third instalment at Calgary’s Canadian Olympic Park! Join us as hundreds of the world’s top athletes hit the hill and compete in the stunt ditch.",
+        "button": "Event Info"
+    },
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "arrival": "Arrival day",
+    "training": "Training day",
+    "competition": "Competition day",
+    "qualifications": "Qualifications day",
+    "finals": "Finals day",
+    "finals_night": "Finals night",
+    "reserve": "Reserve day",
+    "departure": "Departure day",
+    "full_schedule": "Full Schedule",
+    "media": "Media requests",
+    "contact": {
+        "submitted": "Successfully submitted!",
+        "not_submitted": "There was an error with your submission, please email us using this address: snowrodeo@freestylecanada.ski",
+        "requests": "Media Requests",
+        "name": "Your Name (required)",
+        "email": "Your Email (required)",
+        "message": "Your Message",
+        "get_in_touch": "Get in touch with the event organizers:",
+        "form_1": "This form is to apply for media accreditation at the 2021 Snow Rodeo.",
+        "form_2": "Please fill out the form completely.",
+        "form_3": "A PR representative will be in touch closer to the event with more details.",
+        "click": "Click here"
     }
-  }
+}

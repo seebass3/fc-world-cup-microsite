@@ -3,7 +3,6 @@ import * as React from "react"
 import Layout from "../components/layout"
 import TremblantLanding from "../components/tremblant-landing"
 import TremblantInfo from "../components/tremblant-info"
-import MogulSchedule from "../components/mogul-schedule"
 import { useIntl } from "gatsby-plugin-react-intl"
 import Seo from "../components/seo"
 
@@ -18,7 +17,6 @@ const TremblantPage = () => {
   />
   <TremblantLanding />
   <TremblantInfo />
-  <MogulSchedule />
 </Layout>
 )
 }

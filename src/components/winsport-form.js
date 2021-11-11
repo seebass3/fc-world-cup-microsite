@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {injectIntl, FormattedMessage} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 
 const onSubmit = async(event, setSubmitText) => {
     event.preventDefault();
@@ -31,7 +31,7 @@ const onSubmit = async(event, setSubmitText) => {
     }
 };
 
-const WinsportForm = ({intl}) => {
+const WinsportForm = () => {
     const [submitText,
         setSubmitText] = useState(null);
     return (
@@ -99,4 +99,4 @@ const WinsportForm = ({intl}) => {
     )
 }
 
-export default injectIntl(WinsportForm)
+export default WinsportForm

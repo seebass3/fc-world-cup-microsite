@@ -1,9 +1,9 @@
 import React from "react";
 import {useStaticQuery, graphql} from "gatsby";
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 import {BgImage} from 'gbimage-bridge';
 
-const TremblantInfo = ({intl}) => {
+const TremblantInfo = () => {
     const data = useStaticQuery(graphql `
     query tremblantInfo{
       image: file(relativePath: {eq: "tremblant-card.jpg"}) {
@@ -48,4 +48,4 @@ const TremblantInfo = ({intl}) => {
     )
 };
 
-export default injectIntl(TremblantInfo)
+export default TremblantInfo

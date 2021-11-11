@@ -12,7 +12,7 @@ const LeRelaisPage = () => {
   <Layout>
    <Seo
                 lang={intl.locale}
-                title={intl.formatMessage({id: "relais_info.sub_title"})}
+                title={intl.formatMessage({id: "relais_info.sub_header"})}
                 decription={intl.formatMessage({id: "relais_info.text"})}
                 keywords={[
                 'le relais world cup',

@@ -1,9 +1,9 @@
 import React from "react";
 import {useStaticQuery, graphql} from "gatsby";
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 import {BgImage} from 'gbimage-bridge';
 
-const RelaisInfo = ({intl}) => {
+const RelaisInfo = () => {
     const data = useStaticQuery(graphql `
     query relaisInfo{
       thumbnail: file(relativePath: {eq: "relais-wc-bg.jpg"}) {
@@ -47,4 +47,4 @@ const RelaisInfo = ({intl}) => {
     )
 };
 
-export default injectIntl(RelaisInfo)
+export default RelaisInfo

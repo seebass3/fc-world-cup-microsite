@@ -1,8 +1,8 @@
 import React from "react"
 import {Link} from "react-scroll"
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 
-const MobileNav = ({intl}) => {
+const MobileNav = () => {
 
     return (
         <nav id="page-nav">
@@ -53,4 +53,4 @@ const MobileNav = ({intl}) => {
     )
 }
 
-export default injectIntl(MobileNav)
+export default MobileNav

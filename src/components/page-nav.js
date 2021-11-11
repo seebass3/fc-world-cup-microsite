@@ -1,8 +1,8 @@
 import React from "react"
 import {Link} from "react-scroll"
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 
-const PageNav = ({intl}) => {
+const PageNav = () => {
 
     return (
         <nav id="page-nav">
@@ -63,4 +63,4 @@ const PageNav = ({intl}) => {
     )
 }
 
-export default injectIntl(PageNav)
+export default PageNav

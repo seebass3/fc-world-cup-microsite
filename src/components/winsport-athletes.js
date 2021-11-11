@@ -1,9 +1,9 @@
 import React from "react";
 import {useStaticQuery, graphql} from "gatsby";
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 import { GatsbyImage } from "gatsby-plugin-image";
 
-const WinsportAthletes = ({intl}) => {
+const WinsportAthletes = () => {
     const data = useStaticQuery(graphql ` 
     query winsportAthletes {
       cassie: file(relativePath: {eq: "winsport-athletes/cassie.jpg"}) {
@@ -205,4 +205,4 @@ const WinsportAthletes = ({intl}) => {
     )
 };
 
-export default injectIntl(WinsportAthletes)
+export default WinsportAthletes

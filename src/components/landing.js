@@ -1,7 +1,7 @@
 import React from "react";
 import {useStaticQuery, graphql} from "gatsby";
 import {BgImage} from 'gbimage-bridge';
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 import {Link} from 'gatsby-plugin-react-intl'
 
 import Slider from "react-slick";
@@ -60,7 +60,7 @@ const settings = {
     )
 };
 
-const Landing = ({intl}) => {
+const Landing = () => {
     const data = useStaticQuery(graphql `
     query landingPage {
       backgroundTremblant: file(relativePath: {eq: "tremblant-wc-bg.jpg"}) {
@@ -132,4 +132,4 @@ const Landing = ({intl}) => {
     )
 };
 
-export default injectIntl(Landing)
+export default Landing

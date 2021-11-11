@@ -1,8 +1,7 @@
 import React from "react";
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 
-const WinsportSchedule = ({intl}) => {
-
+const WinsportSchedule = () => {
     return (
         <section id="schedule" className="container mx-auto lg:py-12">
             <div className="text-center pb-12">
@@ -122,4 +121,4 @@ const WinsportSchedule = ({intl}) => {
     )
 };
 
-export default injectIntl(WinsportSchedule)
+export default WinsportSchedule

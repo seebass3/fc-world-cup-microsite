@@ -1,8 +1,8 @@
 import React, {Fragment} from "react";
 import {useStaticQuery, graphql} from "gatsby";
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 
-const HalfpipeSchedule = ({intl}) => {
+const HalfpipeSchedule = () => {
     const data = useStaticQuery(graphql `
     query halfpipeSchedule {
         allIcal(filter: {sourceInstanceName: {eq: "halfpipe"}}) {
@@ -70,4 +70,4 @@ const HalfpipeSchedule = ({intl}) => {
     )
 };
 
-export default injectIntl(HalfpipeSchedule)
+export default HalfpipeSchedule

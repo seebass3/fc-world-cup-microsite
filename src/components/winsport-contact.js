@@ -1,8 +1,8 @@
 import React from "react";
 import WinsportForm from "./winsport-form";
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 
-const WinsportContact = ({intl}) => (
+const WinsportContact = () => (
     <section id="contact">
         <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="bg-rodeoGold flex lg:justify-center">
@@ -32,4 +32,4 @@ const WinsportContact = ({intl}) => (
     </section>
 )
 
-export default injectIntl(WinsportContact)
+export default WinsportContact

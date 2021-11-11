@@ -1,8 +1,8 @@
 import React, {Fragment} from "react";
 import {useStaticQuery, graphql} from "gatsby";
-import {FormattedMessage, injectIntl} from "gatsby-plugin-react-intl"
+import {FormattedMessage} from "gatsby-plugin-react-intl"
 
-const MogulSchedule = ({intl}) => {
+const MogulSchedule = () => {
     const data = useStaticQuery(graphql `
     query mogulSchedule {
         allIcal(filter: {sourceInstanceName: {eq: "moguls"}}) {
@@ -70,4 +70,4 @@ const MogulSchedule = ({intl}) => {
     )
 };
 
-export default injectIntl(MogulSchedule)
+export default MogulSchedule

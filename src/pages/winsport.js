@@ -16,7 +16,7 @@ const WinsportPage = () => {
         <Layout>
             <Seo
                 lang={intl.locale}
-                title={intl.formatMessage({id: "winsport_info.sub_title"})}
+                title={intl.formatMessage({id: "winsport_info.sub_header"})}
                 decription={intl.formatMessage({id: "winsport_info.text"})}
                 keywords={[
                 `snow rodeo`,

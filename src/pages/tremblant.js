@@ -11,10 +11,16 @@ const TremblantPage = () => {
   return (
   <Layout>
   <Seo
-    lang={intl.locale}
-    title={intl.formatMessage({ id: "title" })}
-    keywords={[`world cups`, `freestyle canada`, `freestyle events`]}
-  />
+                lang={intl.locale}
+                title={intl.formatMessage({id: "tremblant_info.sub_title"})}
+                decription={intl.formatMessage({id: "tremblant_info.text"})}
+                keywords={[
+                'tremblant world cup',
+                'tremblant',
+                'moguls',
+                'freestyle canada',
+                'freestyle events'
+            ]}/>
   <TremblantLanding />
   <TremblantInfo />
 </Layout>

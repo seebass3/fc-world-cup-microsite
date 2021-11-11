@@ -10,11 +10,17 @@ const LeRelaisPage = () => {
   const intl = useIntl()
   return (
   <Layout>
-  <Seo
-    lang={intl.locale}
-    title={intl.formatMessage({ id: "title" })}
-    keywords={[`world cups`, `freestyle canada`, `freestyle events`]}
-  />
+   <Seo
+                lang={intl.locale}
+                title={intl.formatMessage({id: "relais_info.sub_title"})}
+                decription={intl.formatMessage({id: "relais_info.text"})}
+                keywords={[
+                'le relais world cup',
+                'le relais',
+                'moguls',
+                'freestyle canada',
+                'freestyle events'
+            ]}/>
   <RelaisLanding />
   <RelaisInfo />
 </Layout>

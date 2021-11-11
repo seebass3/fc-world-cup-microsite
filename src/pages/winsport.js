@@ -16,11 +16,12 @@ const WinsportPage = () => {
         <Layout>
             <Seo
                 lang={intl.locale}
-                title={intl.formatMessage({id: "winsport_landing.title"})}
+                title={intl.formatMessage({id: "winsport_info.sub_title"})}
+                decription={intl.formatMessage({id: "winsport_info.text"})}
                 keywords={[
                 `snow rodeo`,
-                'Winsport world cup',
-                'Calgary',
+                'winsport world cup',
+                'calgary',
                 'halfpipe',
                 `freestyle canada`,
                 `freestyle events`

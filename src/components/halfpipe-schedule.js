@@ -19,14 +19,7 @@ const HalfpipeSchedule = () => {
     const info = data.allIcal.nodes
 
     return (
-        <section id="halfpipe-schedule" className="py-12">
-            <div className="text-center pb-12">
-                <h1>
-                    <FormattedMessage id="fis_calendar.schedule"/>
-                </h1>
-            </div>
-            <div className="container mx-auto">
-                <div className="bg-white shadow-md rounded-lg overflow-y-scroll h-half">
+                <div className="bg-white shadow-md overflow-y-scroll h-half">
                     <table className="text-left w-full">
                         <thead className="bg-fisBlue sticky top-0">
                             <tr>
@@ -64,9 +57,6 @@ const HalfpipeSchedule = () => {
                         </tbody>
                     </table>
                 </div>
-            </div>
-        </section>
-
     )
 };
 

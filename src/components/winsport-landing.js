@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {useStaticQuery, graphql} from "gatsby";
-import {GatsbyImage} from "gatsby-plugin-image"
+import {GatsbyImage} from "gatsby-plugin-image";
 import {BgImage} from 'gbimage-bridge';
 import {Link} from 'react-scroll';
 import {IconContext} from "react-icons";
@@ -78,18 +78,20 @@ const WinsportLanding = () => {
                     </Link>
                 </IconContext.Provider>
             </BgImage>
-            <div
-                className={`sticky-wrapper hidden sm:block${isSticky
-                ? ' sticky-nav'
-                : ' '}`}
-                ref={ref}>
-                <div className="bg-rodeoGold sticky-inner">
-                    <PageNav/>
+            <nav id="page-nav">
+                <div
+                    className={`sticky-wrapper hidden sm:block${isSticky
+                    ? ' sticky-nav'
+                    : ' '}`}
+                    ref={ref}>
+                    <div className="bg-rodeoGold sticky-inner">
+                        <PageNav/>
+                    </div>
                 </div>
-            </div>
-            <div className="bg-rodeoGold">
-                <MobileNav/>
-            </div>
+                <div className="bg-rodeoGold">
+                    <MobileNav/>
+                </div>
+            </nav>
         </section>
     )
 };

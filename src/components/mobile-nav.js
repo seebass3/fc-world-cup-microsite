@@ -5,7 +5,6 @@ import {FormattedMessage} from "gatsby-plugin-react-intl"
 const MobileNav = () => {
 
     return (
-        <nav id="page-nav">
             <div className="sm:hidden" id="mobile-menu">
                 <div className="px-2 py-4 space-y-1">
                     <Link
@@ -40,7 +39,6 @@ const MobileNav = () => {
                         duration={500}><FormattedMessage id="navigation.partners"/></Link>
                 </div>
             </div>
-        </nav>
     )
 }
 

@@ -15,7 +15,7 @@ html {
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 body {
@@ -26,10 +26,9 @@ body {
   font-family: "AmsiPro-Regular", serif;
   font-weight: normal;
   word-wrap: break-word;
-  font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   overflow-x: hidden;
 }
@@ -284,6 +283,22 @@ button::-moz-focus-inner {
 [type="submit"]:-moz-focusring,
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
+}
+
+.btn,
+a.btn,
+input[type="submit"],
+input[type="button"] {
+  display: inline-block;
+  border: 3px solid #fff;
+  color: #fff;
+  text-align: center;
+  padding: 7px 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "AmsiPro", Arial, Helvetica, sans-serif;
+  font-weight: 800;
 }
 
 fieldset {
@@ -872,26 +887,39 @@ ul#menu-social {
   left: 0;
   right: 0;
   z-index: 1;
-  animation: moveDown 0.5s ease-in-out;
+  -webkit-animation: moveDown 0.5s ease-in-out;
+          animation: moveDown 0.5s ease-in-out;
+}
+
+@-webkit-keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
 }
 
 @keyframes moveDown {
   from {
     transform: translateY(-5rem);
   }
+
   to {
     transform: translateY(0rem);
   }
 }
 
 .scrollTop {
-  position: fixed; 
+  position: fixed;
   width: 40px;
   bottom: 20px;
   right: 20px;
   z-index: 1000;
   cursor: pointer;
-  animation: fadeIn 0.3s;
+  -webkit-animation: fadeIn 0.3s;
+          animation: fadeIn 0.3s;
   transition: opacity 0.4s;
   background-color: rgba(17, 24, 39);
   padding: 5px;
@@ -899,11 +927,32 @@ ul#menu-social {
 }
 
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
+}
+
+.zoom {
+  opacity: 75% !important;
+}
+
+
+.pre-zoom {
+  opacity: 50% !important;
 }

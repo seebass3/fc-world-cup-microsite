@@ -40,7 +40,7 @@ const TremblantInfo = () => {
                         <p><FormattedMessage id="coming_soon"/></p>
                         <a
                             className="bg-fcPurple text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
-                            href=""><FormattedMessage id="soon_button"/></a>
+                            href="/#"><FormattedMessage id="soon_button"/></a>
                     </div>
                 </div>
             </div>

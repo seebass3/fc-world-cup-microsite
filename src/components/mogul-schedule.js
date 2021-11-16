@@ -26,7 +26,7 @@ const MogulSchedule = () => {
                 </h1>
             </div>
             <div className="container mx-auto">
-                <div className="bg-white shadow-md rounded-lg overflow-y-scroll h-half">
+                <div className="bg-white shadow-md overflow-y-scroll h-half">
                     <table className="text-left w-full">
                         <thead className="bg-fisBlue sticky top-0">
                             <tr>

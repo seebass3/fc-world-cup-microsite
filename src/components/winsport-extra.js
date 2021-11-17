@@ -63,10 +63,7 @@ const WinsportExtra = () => {
                 <div className="relative">
                     <GatsbyImage
                         objectFit="cover"
-                        imgClassName={hoveredLeft
-                        ? 'scale-bg'
-                        : ''}
-                        className="h-96"
+                        className="h-96 hover:bg-gray-50"
                         image={bgImage}
                         alt="Covid Background Image"/>
                     <div className="square-bg"/>
@@ -87,10 +84,7 @@ const WinsportExtra = () => {
                 <div className="relative">
                     <GatsbyImage
                         objectFit="cover"
-                        className="h-96"
-                        imgClassName={hoveredRight
-                        ? 'scale-bg'
-                        : ''}
+                        className="h-96"à
                         image={bgImage2}
                         alt="WC Background Image"/>
                     <div className="square-bg"/>

@@ -12,7 +12,7 @@ const Language = () => {
         <div id="top" className="flex items-center justify-end px-2">
             <IntlContextConsumer>
                 {({languages, language: currentLocale}) => languages.map(language => (
-                    <a
+                    <button
                         className="font-bold"
                         key={language}
                         onClick={() => changeLocale(language)}
@@ -27,7 +27,7 @@ const Language = () => {
                         cursor: `pointer`
                     }}>
                         {languageName[language]}
-                    </a>
+                    </button>
                 ))
 }
             </IntlContextConsumer>

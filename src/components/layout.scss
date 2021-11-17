@@ -947,11 +947,27 @@ ul#menu-social {
   }
 }
 
-.zoom {
-  opacity: 75% !important;
+.hover-bg {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  right: 0;
+  background-color: #000;
+  opacity: 75%;
 }
 
 
-.pre-zoom {
-  opacity: 50% !important;
+.hover-bg-after {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  right: 0;
+  background-color: #000;
+  opacity: 50%;
 }

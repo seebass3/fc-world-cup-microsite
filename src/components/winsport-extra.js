@@ -63,12 +63,13 @@ const WinsportExtra = () => {
                 <div className="relative">
                     <GatsbyImage
                         objectFit="cover"
-                        className="relative h-96"
+                        className="h-96"
                         image={bgImage}
                         alt="Covid Background Image"/>
-                        <div className={hoveredLeft
-                        ? 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-50'
-                        : 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-75'}/>
+                    <div
+                        className={hoveredLeft
+                        ? 'hover-bg-after'
+                        : 'hover-bg'}/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
                         <button
@@ -86,12 +87,13 @@ const WinsportExtra = () => {
                 <div className="relative">
                     <GatsbyImage
                         objectFit="cover"
-                        className="relative h-96"
+                        className="h-96"
                         image={bgImage2}
                         alt="Covid Background Image"/>
-                         <div className={hoveredRight
-                        ? 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-50'
-                        : 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-75'}/>
+                    <div
+                        className={hoveredRight
+                        ? 'hover-bg-after'
+                        : 'hover-bg'}/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
                         <button

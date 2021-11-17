@@ -24,14 +24,6 @@ const WinsportExtra = () => {
     const bgImage = data.backgroundOne.childImageSharp.gatsbyImageData
     const bgImage2 = data.backgroundTwo.childImageSharp.gatsbyImageData
 
-    const [hoveredLeft,
-        setHoveredLeft] = useState(false);
-    const toggleHoverLeft = () => setHoveredLeft(!hoveredLeft);
-
-    const [hoveredRight,
-        setHoveredRight] = useState(false);
-    const toggleHoverRight = () => setHoveredRight(!hoveredRight);
-
     const [showModal,
         setShowModal] = useState(false)
     const openModal = () => {
@@ -60,48 +52,39 @@ const WinsportExtra = () => {
 
         <section id="page-footer" className="bg-black">
             <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="relative">
+                <div className="relative extra-item__link" onClick={openModal1}>
                     <GatsbyImage
                         objectFit="cover"
-                        className="h-96 hover:bg-gray-50"
+                        className="h-96 extra-item__img"
                         image={bgImage}
                         alt="Covid Background Image"/>
-                    <div className="square-bg"/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
-                        <button
-                            onClick={openModal}
-                            onMouseEnter={toggleHoverLeft}
-                            onMouseLeave={toggleHoverLeft}
-                            className="btn">COVID-19</button>
+                        <h2 className="text-white text-center">COVID-19</h2>
                     </div>
                 </div>
-                <Modal
-                    showModal={showModal}
-                    setShowModal={setShowModal}
-                    modalContent={contentCovid}/>
 
-                <div className="relative">
+                <div className="relative extra-item__link" onClick={openModal}>
                     <GatsbyImage
                         objectFit="cover"
-                        className="h-96"à
+                        className="h-96 extra-item__img"
                         image={bgImage2}
                         alt="WC Background Image"/>
                     <div className="square-bg"/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
-                        <button
-                            onClick={openModal1}
-                            onMouseEnter={toggleHoverRight}
-                            onMouseLeave={toggleHoverRight}
-                            className="btn"><FormattedMessage id="fis_calendar.schedule"/></button>
+                        <h2 className="text-white text-center"><FormattedMessage id="fis_calendar.schedule"/></h2>
                     </div>
                 </div>
-                <Modal
-                    showModal={showModal1}
-                    setShowModal={setShowModal1}
-                    modalContent={contentWc}/>
             </div>
+            <Modal
+                showModal={showModal}
+                setShowModal={setShowModal}
+                modalContent={contentCovid}/>
+            <Modal
+                showModal={showModal1}
+                setShowModal={setShowModal1}
+                modalContent={contentWc}/>
         </section>
 
     )

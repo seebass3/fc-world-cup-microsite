@@ -39,7 +39,7 @@ const WinsportInfo = () => {
                         <p><FormattedMessage id="winsport_info.text"/></p>
                         <a
                             className="bg-rodeoGold text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
-                            href="https://www.fis-ski.com/DB/general/event-details.html?sectorcode=FS&eventid=49238&seasoncode=2022" rel="noopener noreferrer" target="_blank"><FormattedMessage id="winsport_info.button"/></a>
+                            href="https://www.shredthenorth.ca/en/events/snow-rodeo/ski/info/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="winsport_info.button"/></a>
                     </div>
                 </div>
             </div>

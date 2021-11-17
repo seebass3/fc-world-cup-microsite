@@ -6,7 +6,7 @@ const WinsportContact = () => (
     <section id="contact">
         <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="bg-rodeoGold flex lg:justify-center">
-                <div className="flex flex-col px-10 py-6 justify-center mx-auto">
+                <div className="flex flex-col px-10 py-6 justify-center">
                     <div className="flex my-4">
                         <h1 className="text-white"><FormattedMessage id="contact.requests"/></h1>
                     </div>

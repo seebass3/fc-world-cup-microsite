@@ -64,11 +64,11 @@ const WinsportExtra = () => {
                     <GatsbyImage
                         objectFit="cover"
                         className="relative h-96"
-                        imgClassName={hoveredLeft
-                        ? 'zoom'
-                        : 'pre-zoom'}
                         image={bgImage}
                         alt="Covid Background Image"/>
+                        <div className={hoveredLeft
+                        ? 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-50'
+                        : 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-75'}/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
                         <button
@@ -87,11 +87,11 @@ const WinsportExtra = () => {
                     <GatsbyImage
                         objectFit="cover"
                         className="relative h-96"
-                        imgClassName={hoveredRight
-                        ? 'zoom'
-                        : 'pre-zoom'}
                         image={bgImage2}
                         alt="Covid Background Image"/>
+                         <div className={hoveredRight
+                        ? 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-50'
+                        : 'w-full h-full transition-opacity duration-500 absolute top-0 left-0 right-0 bottom-0 bg-black transform opacity-75'}/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
                         <button

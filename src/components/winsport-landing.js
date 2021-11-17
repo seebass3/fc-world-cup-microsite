@@ -84,7 +84,7 @@ const WinsportLanding = () => {
                     ? ' sticky-nav'
                     : ' '}`}
                     ref={ref}>
-                    <div className="bg-rodeoGold sticky-inner">
+                    <div className="bg-rodeoGold sticky-inner shadow-lg">
                         <PageNav/>
                     </div>
                 </div>

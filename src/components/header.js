@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import styled from "styled-components"
 import Logo from "./logo"
 import {Link} from 'gatsby-plugin-react-intl';
@@ -11,8 +11,8 @@ const Navigation = styled.nav `
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
-  padding: 0 1.5vw;
-  z-index: 2;
+  padding: 15px;
+  z-index: 999;
   transition: all 1s ease-in-out;
   align-items: center;
 `
@@ -23,7 +23,7 @@ const Toggle = styled.div `
   cursor: pointer;
   padding: 0 1.25vw;
 
-  @media (max-width: 948px) {
+  @media (max-width: 1024px) {
     display: flex;
   }
 `
@@ -36,11 +36,11 @@ const Navbox = styled.div `
   z-index: -1;
   float: right;
 
-  @media (max-width: 948px) {
-    position: absolute;
-    margin-top: 128px;
+  @media (max-width: 1024px) {
+    position: fixed;
+    margin-top: 52px;
     flex-direction: column;
-    height: 15rem;
+    height: 100vh;
     width: 100%;
     justify-content: center;
     background: #000;
@@ -48,10 +48,10 @@ const Navbox = styled.div `
     opacity: ${props => (props.open
     ? "0"
     : "100%")};
-    right: ${props => (props.open
+    left: ${props => (props.open
     ? "-100%"
     : "0")};
-      top: 0;
+    top: 0;
   }
 `
 
@@ -133,7 +133,7 @@ const NavWinsport = styled(Link)`
   -webkit-transition: all 0.4s ease-in;
 }
 
-@media (max-width: 948px) {
+@media (max-width: 1024px) {
   padding: 20px 0;
   z-index: 6;
 
@@ -182,7 +182,7 @@ const NavRelais = styled(Link)`
   -webkit-transition: all 0.4s ease-in;
 }
 
-@media (max-width: 948px) {
+@media (max-width: 1024px) {
   padding: 20px 0;
   z-index: 6;
 
@@ -231,7 +231,7 @@ const NavTremblant = styled(Link)`
   -webkit-transition: all 0.4s ease-in;
 }
 
-@media (max-width: 948px) {
+@media (max-width: 1024px) {
   padding: 20px 0;
   z-index: 6;
 
@@ -244,6 +244,15 @@ const NavTremblant = styled(Link)`
 const Navbar = () => {
     const [navbarOpen,
         setNavbarOpen] = useState(false)
+
+        useEffect(() => {
+          if (navbarOpen) {
+            document.body.style.overflow = 'hidden';
+          }
+          return () => {
+            document.body.style.overflow = 'unset';
+          };
+        }, [navbarOpen]);
 
         const winsportLocation = props => {
           const currentLocation = props.pathname
@@ -289,6 +298,7 @@ const Navbar = () => {
                             to="/tremblant"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                             title="Tremblant">Tremblant</NavTremblant>
+
                     </Navbox>
                 )
                 : (

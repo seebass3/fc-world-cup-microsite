@@ -60,7 +60,7 @@ const WinsportExtra = () => {
                         alt="Covid Background Image"/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
-                        <h2 className="text-white text-center">COVID-19</h2>
+                        <h2 className="text-white text-center uppercase">COVID-19</h2>
                     </div>
                 </div>
 
@@ -73,7 +73,7 @@ const WinsportExtra = () => {
                     <div className="square-bg"/>
                     <div
                         className="flex h-full items-center justify-center absolute top-0 left-0 right-0 bottom-0 p-10">
-                        <h2 className="text-white text-center"><FormattedMessage id="fis_calendar.schedule"/></h2>
+                        <h2 className="text-white text-center uppercase"><FormattedMessage id="fis_calendar.schedule"/></h2>
                     </div>
                 </div>
             </div>

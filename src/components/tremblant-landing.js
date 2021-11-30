@@ -27,15 +27,18 @@ const TremblantLanding = () => {
 
     return (
         <section id="relais-landing">
-            <BgImage
-                className="h-hero"
-                image={bgImage}>
-                <div className="bg-gradient-to-t lg:bg-gradient-to-r from-white via-transparent to-transparent h-full w-full absolute z-0"></div>
+            <BgImage className="h-hero" image={bgImage}>
+                <div className="h-full w-full absolute z-0"></div>
                 <div className="flex h-full items-center">
-                    <div className="p-10 h-full">
+                    <div className="p-10 h-full lg:bg-gradient-to-r from-white to-transparent">
                         <GatsbyImage
-                            style={{ height: "100%", width: "100%" }}
-                            imgStyle={{ objectFit: "contain" }}
+                            style={{
+                            height: "100%",
+                            width: "100%"
+                        }}
+                            imgStyle={{
+                            objectFit: "contain"
+                        }}
                             image={tremblantImage}
                             alt="Le Relais World Cup Logo"/>
                     </div>

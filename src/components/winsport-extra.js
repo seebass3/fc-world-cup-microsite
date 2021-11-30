@@ -52,7 +52,7 @@ const WinsportExtra = () => {
 
         <section id="page-footer" className="bg-black">
             <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="relative extra-item__link" onClick={openModal1}>
+                <div className="relative extra-item__link" onClick={openModal}>
                     <GatsbyImage
                         objectFit="cover"
                         className="h-96 extra-item__img"
@@ -64,7 +64,7 @@ const WinsportExtra = () => {
                     </div>
                 </div>
 
-                <div className="relative extra-item__link" onClick={openModal}>
+                <div className="relative extra-item__link" onClick={openModal1}>
                     <GatsbyImage
                         objectFit="cover"
                         className="h-96 extra-item__img"

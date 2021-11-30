@@ -1,1 +1,1 @@
-Freestyle Canada World Cup Microsite using Gtaby.js
+Freestyle Canada World Cup Microsite using Gatsby.js

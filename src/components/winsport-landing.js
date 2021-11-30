@@ -17,9 +17,9 @@ const WinsportLanding = () => {
           gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
         }
       }
-      rodeo: file(relativePath: {eq: "rodeo-logo-scaled.jpg"}) {
+      rodeo: file(relativePath: {eq: "rodeo-logo.png"}) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED width:500)
+          gatsbyImageData(layout: CONSTRAINED width:800)
         }
       }
     }
@@ -49,9 +49,9 @@ const WinsportLanding = () => {
         <section id="winsport-landing">
             <BgImage className="h-hero" image={bgImage}>
                 <div
-                    className="bg-gradient-to-t lg:bg-gradient-to-r from-white via-transparent to-transparent h-full w-full absolute z-0"></div>
+                    className="h-full w-full absolute z-0"></div>
                 <div className="flex h-full items-center">
-                    <div className="p-10 h-full">
+                    <div className="p-10 h-full lg:bg-gradient-to-r from-white to-transparent">
                         <GatsbyImage
                             style={{
                             height: "100%",

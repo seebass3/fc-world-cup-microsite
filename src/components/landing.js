@@ -64,22 +64,22 @@ const settings = {
 const Landing = () => {
     const data = useStaticQuery(graphql `
     query landingPage {
-      backgroundTremblant: file(relativePath: {eq: "tremblant-wc-bg.jpg"}) {
-        childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH)
+        backgroundTremblant: file(relativePath: {eq: "tremblant-wc-bg.jpg"}) {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
+          }
         }
-      }
-      backgroundRodeo: file(relativePath: {eq: "rodeo-background.jpg"}) {
-        childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH)
+        backgroundRodeo: file(relativePath: {eq: "rodeo-background.jpg"}) {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
+          }
         }
-      }
-    backgroundRelais: file(relativePath: {eq: "relais-background.jpg"}) {
-      childImageSharp {
-        gatsbyImageData(layout: FULL_WIDTH)
-       }
-      }
-    }
+        backgroundRelais: file(relativePath: {eq: "relais-background.jpg"}) {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
+          }
+        }
+      }  
 `);
 
     const bgImage1 = data.backgroundRodeo.childImageSharp.gatsbyImageData;

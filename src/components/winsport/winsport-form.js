@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {FormattedMessage} from "gatsby-plugin-react-intl"
+import React, {useState} from 'react';
+import {FormattedMessage} from 'gatsby-plugin-react-intl';
 
 const onSubmit = async(event, setSubmitText) => {
     event.preventDefault();
@@ -100,6 +100,6 @@ const WinsportForm = () => {
             </div>
         </div>
     )
-}
+};
 
-export default WinsportForm
+export default WinsportForm;

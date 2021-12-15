@@ -29,7 +29,7 @@
     "relais_info": {
         "header": "2 - 5 janv. 2022 | Le Relais, QC",
         "sub_header": "Coupe du monde de sauts Placements Mackenzie présentée par Toyota",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "C’est le 5 janvier prochain que la tournée de la Coupe du monde de saut en ski acrobatique s’arrêtera au Centre de ski Le Relais à Lac-Beauport. Situé à seulement 15 minutes de la Ville de Québec, Le Relais verra la Coupe du monde revenir sur ses pistes pour la première fois depuis 1995! Venez encourager nos athlètes canadiens!",
         "button": "Plus de détails"
     },
     "tremblant_info": {
@@ -73,6 +73,11 @@
         "form_1": "Ce formulaire doit être rempli pour les demandes d’accréditation des médias au Snow Rodeo 2021.",
         "form_2": "SVP, complétez le formulaire au complet.",
         "form_3": "Un représentant des relations publiques communiquera avec vous à l’approche de l’événement pour vous donner plus de détails.",
+        "freestyle": "Pour toute demande des médias, veuillez communiquer avec :",
+        "include": "Veuillez inclure :",
+        "include_name": "Votre nom",
+        "include_contact": "Coordonnées (téléphone + courriel)",
+        "include_media": "Nom de votre organisation médiatique",
         "click": "Cliquez ici"
     }
 }

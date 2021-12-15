@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from "react"
-import styled from "styled-components"
-import Logo from "./logo"
+import React, {useState, useEffect} from 'react';
+import styled from 'styled-components';
+import Logo from './logo';
 import {Link} from 'gatsby-plugin-react-intl';
 
 const Navigation = styled.nav `
@@ -26,7 +26,7 @@ const Toggle = styled.div `
   @media (max-width: 1024px) {
     display: flex;
   }
-`
+`;
 
 const Navbox = styled.div `
   display: flex;
@@ -53,7 +53,7 @@ const Navbox = styled.div `
     : "0")};
     top: 0;
   }
-`
+`;
 
 const Hamburger = styled.div `
   background-color: white;
@@ -93,7 +93,8 @@ const Hamburger = styled.div `
         : "rotate(0deg)")};
     top: 10px;
   }
-`
+`;
+
 const NavWinsport = styled(Link)`
   text-decoration: none;
   font-family: "AmsiProNarw-Ultra", sans-serif;
@@ -141,7 +142,7 @@ const NavWinsport = styled(Link)`
       display: none;
     }
 }
-`
+`;
 
 const NavRelais = styled(Link)`
   text-decoration: none;
@@ -190,7 +191,7 @@ const NavRelais = styled(Link)`
       display: none;
     }
 }
-`
+`;
 
 const NavTremblant = styled(Link)`
   text-decoration: none;
@@ -239,11 +240,11 @@ const NavTremblant = styled(Link)`
       display: none;
     }
 }
-`
+`;
 
 const Navbar = () => {
     const [navbarOpen,
-        setNavbarOpen] = useState(false)
+        setNavbarOpen] = useState(false);
 
         useEffect(() => {
           if (navbarOpen) {
@@ -259,23 +260,22 @@ const Navbar = () => {
           if (currentLocation.includes("winsport")) {
             return { className: "winsport-active" }
           }
-        }
+        };
 
         const relaisLocation = props => {
           const currentLocation = props.pathname
           if (currentLocation.includes("le-relais")) {
             return { className: "relais-active" }
           }
-        }
+        };
 
         const tremblantLocation = props => {
           const currentLocation = props.pathname
           if (currentLocation.includes("tremblant")) {
             return { className: "tremblant-active" }
           }
-        }
+        };
         
-
     return (
         <Navigation>
             <Logo/>
@@ -310,6 +310,6 @@ const Navbar = () => {
                 )}
         </Navigation>
     )
-}
+};
 
-export default Navbar
+export default Navbar;

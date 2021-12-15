@@ -25,7 +25,7 @@
     "relais_info": {
         "header": "Jan 2-5. 2022 | Le Relais, QC",
         "sub_header": "2022 Mackenzie Investments Freestyle FIS Aerials World Cup Presented by Toyota",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "On January 5th, the Freestyle Ski World Cup tour will stop at the Le Relais in Lac-Beauport. Located just 15 minutes from Quebec City, Le Relais will see the World Cup return to its tracks for the first time since 1995!  Come cheer on our Canadian athletes! ",
         "button": "Event Info"
     },
     "tremblant_info": {
@@ -69,6 +69,11 @@
         "form_1": "This form is to apply for media accreditation at the 2021 Snow Rodeo.",
         "form_2": "Please fill out the form completely.",
         "form_3": "A PR representative will be in touch closer to the event with more details.",
+        "freestyle": "For all media requests, please contact:",
+        "include": "Please include:",
+        "include_name": "Your name",
+        "include_contact": "Contact info (cell + email)",
+        "include_media": "Name of your media organization",
         "click": "Click here"
     }
 }

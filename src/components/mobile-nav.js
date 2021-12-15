@@ -1,11 +1,12 @@
-import React from "react"
-import {Link} from "react-scroll"
-import {FormattedMessage} from "gatsby-plugin-react-intl"
+import React from 'react';
+import {Link} from 'react-scroll';
+import {FormattedMessage} from 'gatsby-plugin-react-intl';
+import PropTypes from 'prop-types';
 
-const MobileNav = () => {
+const MobileNav = ({color}) => {
 
     return (
-            <div className="sm:hidden" id="mobile-menu">
+            <div className={`${color} sm:hidden`} id="mobile-menu">
                 <div className="px-2 py-4 space-y-1">
                     <Link
                         to="event-info"
@@ -41,5 +42,9 @@ const MobileNav = () => {
             </div>
     )
 }
+
+MobileNav.propTypes = {
+    color: PropTypes.string.isRequired
+  };
 
 export default MobileNav

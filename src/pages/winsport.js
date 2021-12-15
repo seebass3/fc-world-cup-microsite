@@ -1,18 +1,18 @@
-import * as React from "react"
+import * as React from 'react';
 
-import Layout from "../components/layout"
-import WinsportLanding from "../components/winsport-landing"
-import WinsportInfo from "../components/winsport-info"
-import WinsportSchedule from "../components/winsport-schedule"
-import WinsportAthletes from "../components/winsport-athletes"
-import WinsportContact from "../components/winsport-contact"
-import WinsportPartners from "../components/winsport-partners"
-import WinsportExtra from "../components/winsport-extra"
-import {useIntl} from "gatsby-plugin-react-intl"
-import Seo from "../components/seo"
+import Layout from '../components/layout';
+import WinsportLanding from '../components/winsport/winsport-landing';
+import WinsportInfo from '../components/winsport/winsport-info';
+import WinsportSchedule from '../components/winsport/winsport-schedule';
+import WinsportAthletes from '../components/winsport/winsport-athletes';
+import WinsportContact from '../components/winsport/winsport-contact';
+import WinsportPartners from '../components/winsport/winsport-partners';
+import WinsportExtra from '../components/winsport/winsport-extra';
+import {useIntl} from 'gatsby-plugin-react-intl';
+import Seo from '../components/seo';
 
 const WinsportPage = () => {
-    const intl = useIntl()
+    const intl = useIntl();
     return (
         <Layout>
             <Seo
@@ -36,6 +36,6 @@ const WinsportPage = () => {
             <WinsportExtra/>
         </Layout>
     )
-}
+};
 
-export default WinsportPage
+export default WinsportPage;

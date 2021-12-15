@@ -17,10 +17,10 @@ function Seo({ description, lang, meta, title }) {
         }
       }
     `
-  )
+  );
 
-  const intl = useIntl()
-  const metaDescription = description || intl.formatMessage({ id: "description" })
+  const intl = useIntl();
+  const metaDescription = description || intl.formatMessage({ id: "description" });
 
   return (
     <Helmet
@@ -65,7 +65,7 @@ function Seo({ description, lang, meta, title }) {
       ].concat(meta)}
     />
   )
-}
+};
 
 Seo.defaultProps = {
   lang: `en`,
@@ -80,4 +80,4 @@ Seo.propTypes = {
   title: PropTypes.string.isRequired,
 }
 
-export default Seo
+export default Seo;

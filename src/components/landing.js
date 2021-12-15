@@ -1,12 +1,12 @@
-import React from "react";
-import {useStaticQuery, graphql} from "gatsby";
+import React from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
 import {BgImage} from 'gbimage-bridge';
-import {FormattedMessage} from "gatsby-plugin-react-intl"
-import {Link} from 'gatsby-plugin-react-intl'
+import {FormattedMessage} from 'gatsby-plugin-react-intl';
+import {Link} from 'gatsby-plugin-react-intl';
 
-import Slider from "react-slick";
-import styled from "styled-components"
-import {IconContext} from "react-icons";
+import Slider from 'react-slick';
+import styled from 'styled-components';
+import {IconContext} from 'react-icons';
 import {IoIosArrowForward} from 'react-icons/io';
 import {IoIosArrowBack} from 'react-icons/io';
 
@@ -28,7 +28,8 @@ overflow: hidden;
 .slick-prev:before {
   content: "" !important;
 }
-`
+`;
+
 const settings = {
     infinite: true,
     slidesToShow: 1,
@@ -65,29 +66,28 @@ const Landing = () => {
     query landingPage {
       backgroundTremblant: file(relativePath: {eq: "tremblant-wc-bg.jpg"}) {
         childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
+          gatsbyImageData(layout: FULL_WIDTH)
         }
       }
       backgroundRodeo: file(relativePath: {eq: "rodeo-background.jpg"}) {
         childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
+          gatsbyImageData(layout: FULL_WIDTH)
         }
       }
     backgroundRelais: file(relativePath: {eq: "relais-background.jpg"}) {
       childImageSharp {
-        gatsbyImageData(layout: FULL_WIDTH placeholder:BLURRED)
+        gatsbyImageData(layout: FULL_WIDTH)
        }
       }
     }
-        `)
+`);
 
-    const bgImage1 = data.backgroundRodeo.childImageSharp.gatsbyImageData
-    const bgImage2 = data.backgroundRelais.childImageSharp.gatsbyImageData
-    const bgImage3 = data.backgroundTremblant.childImageSharp.gatsbyImageData
+    const bgImage1 = data.backgroundRodeo.childImageSharp.gatsbyImageData;
+    const bgImage2 = data.backgroundRelais.childImageSharp.gatsbyImageData;
+    const bgImage3 = data.backgroundTremblant.childImageSharp.gatsbyImageData;
 
     return (
         <section id="home-landing">
-
             <SliderWrap>
                 <Slider {...settings}>
                     <BgImage className="h-hero" image={bgImage1}>
@@ -132,4 +132,4 @@ const Landing = () => {
     )
 };
 
-export default Landing
+export default Landing;

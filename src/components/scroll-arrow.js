@@ -40,7 +40,7 @@ const ScrollArrow = () => {
             }}/>
             </Link>
         </IconContext.Provider>
-    );
-}
+    )
+};
 
 export default ScrollArrow;

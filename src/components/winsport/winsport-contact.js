@@ -1,6 +1,6 @@
-import React from "react";
-import WinsportForm from "./winsport-form";
-import {FormattedMessage} from "gatsby-plugin-react-intl"
+import React from 'react';
+import WinsportForm from './winsport-form';
+import {FormattedMessage} from 'gatsby-plugin-react-intl';
 
 const WinsportContact = () => (
     <section id="contact">
@@ -28,8 +28,7 @@ const WinsportContact = () => (
                 <WinsportForm/>
             </div>
         </div>
-
     </section>
-)
+);
 
 export default WinsportContact

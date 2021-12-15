@@ -1,5 +1,5 @@
-import React from "react";
-import {FormattedMessage} from "gatsby-plugin-react-intl"
+import React from 'react';
+import {FormattedMessage} from 'gatsby-plugin-react-intl';
 
 const WinsportSchedule = () => {
     return (
@@ -12,7 +12,7 @@ const WinsportSchedule = () => {
             <div className="w-full">
                 <div className="bg-white shadow-md">
                     <table className="text-left w-full">
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="monday"/>, Dec 27 2021</th>
@@ -23,7 +23,7 @@ const WinsportSchedule = () => {
                                 <td><FormattedMessage id="arrival"/></td>
                             </tr>
                         </tbody>
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="tuesday"/>, Dec 28 2021</th>
@@ -34,7 +34,7 @@ const WinsportSchedule = () => {
                                 <td><FormattedMessage id="training"/></td>
                             </tr>
                         </tbody>
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="wednesday"/>, Dec 29 2021</th>
@@ -45,7 +45,7 @@ const WinsportSchedule = () => {
                                 <td><FormattedMessage id="training"/></td>
                             </tr>
                         </tbody>
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="thursday"/>, Dec 30 2021</th>
@@ -60,7 +60,7 @@ const WinsportSchedule = () => {
 
                             </tr>
                         </tbody>
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="friday"/>, Dec 31 2021</th>
@@ -71,7 +71,7 @@ const WinsportSchedule = () => {
                                 <td><FormattedMessage id="training"/></td>
                             </tr>
                         </tbody>
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="saturday"/>, Jan 1 2022</th>
@@ -85,7 +85,7 @@ const WinsportSchedule = () => {
                                 <td><FormattedMessage id="finals_night"/></td>
                             </tr>
                         </tbody>
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="sunday"/>, Jan 2 2022</th>
@@ -96,7 +96,7 @@ const WinsportSchedule = () => {
                                 <td><FormattedMessage id="reserve"/></td>
                             </tr>
                         </tbody>
-                        <thead className="bg-rodeoGold bg-opacity-70 sticky top-0">
+                        <thead className="bg-rodeoGold bg-opacity-70 top-0">
                             <tr>
                                 <th
                                     className="py-2 px-3 bg-grey-lightest uppercase text-white border-b border-grey-light"><FormattedMessage id="monday"/>, Jan 3 2022</th>
@@ -121,4 +121,4 @@ const WinsportSchedule = () => {
     )
 };
 
-export default WinsportSchedule
+export default WinsportSchedule;

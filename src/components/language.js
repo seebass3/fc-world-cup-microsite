@@ -1,11 +1,11 @@
-import React from "react"
-import {IntlContextConsumer, changeLocale} from "gatsby-plugin-react-intl"
-import SocialNav from "./social-nav"
+import React from 'react';
+import {IntlContextConsumer, changeLocale} from 'gatsby-plugin-react-intl';
+import SocialNav from './social-nav';
 
 const languageName = {
     en: "English",
     fr: "Français"
-}
+};
 
 const Language = () => {
     return (
@@ -28,13 +28,12 @@ const Language = () => {
                     }}>
                         {languageName[language]}
                     </button>
-                ))
-}
+                ))}
             </IntlContextConsumer>
             <div className="vl m-1"></div>
             <SocialNav/>
         </div>
     )
-}
+};
 
-export default Language
+export default Language;

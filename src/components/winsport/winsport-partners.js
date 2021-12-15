@@ -1,7 +1,7 @@
-import React from "react";
-import {FormattedMessage} from "gatsby-plugin-react-intl"
-import {useStaticQuery, graphql} from "gatsby";
-import {GatsbyImage} from "gatsby-plugin-image";
+import React from 'react';
+import {FormattedMessage} from 'gatsby-plugin-react-intl';
+import {useStaticQuery, graphql} from 'gatsby';
+import {GatsbyImage} from 'gatsby-plugin-image';
 
 const WinsportPartners = () => {
     const data = useStaticQuery(graphql `
@@ -52,20 +52,19 @@ const WinsportPartners = () => {
           }
         }
       }
-`)
+`);
 
-    const toyota = data.toyota.childImageSharp.gatsbyImageData
-    const anta = data.anta.childImageSharp.gatsbyImageData
-    const flags = data.flags.childImageSharp.gatsbyImageData
-    const snowboard = data.snowboard.childImageSharp.gatsbyImageData
-    const alberta = data.alberta.childImageSharp.gatsbyImageData
-    const canada = data.canada.childImageSharp.gatsbyImageData
-    const winsport = data.winsport.childImageSharp.gatsbyImageData
-    const calgary = data.calgary.childImageSharp.gatsbyImageData
-    const fis = data.fis.childImageSharp.gatsbyImageData
+    const toyota = data.toyota.childImageSharp.gatsbyImageData;
+    const anta = data.anta.childImageSharp.gatsbyImageData;
+    const flags = data.flags.childImageSharp.gatsbyImageData;
+    const snowboard = data.snowboard.childImageSharp.gatsbyImageData;
+    const alberta = data.alberta.childImageSharp.gatsbyImageData;
+    const canada = data.canada.childImageSharp.gatsbyImageData;
+    const winsport = data.winsport.childImageSharp.gatsbyImageData;
+    const calgary = data.calgary.childImageSharp.gatsbyImageData;
+    const fis = data.fis.childImageSharp.gatsbyImageData;
 
     return (
-
         <section id="partners" className="shadow-lg pt-4">
             <div className="text-center py-4">
                 <h1><FormattedMessage id="partners"/></h1>
@@ -87,6 +86,6 @@ const WinsportPartners = () => {
         </section>
 
     )
-}
+};
 
 export default WinsportPartners;

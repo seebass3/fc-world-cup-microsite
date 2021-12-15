@@ -1,6 +1,6 @@
-import React from "react";
-import {useStaticQuery, graphql} from "gatsby";
-import {FormattedMessage} from "gatsby-plugin-react-intl"
+import React from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
+import {FormattedMessage} from 'gatsby-plugin-react-intl';
 import {BgImage} from 'gbimage-bridge';
 
 const WinsportInfo = () => {
@@ -12,9 +12,9 @@ const WinsportInfo = () => {
         }
       }
     }
-        `)
+`);
 
-    const bgImage = data.image.childImageSharp.gatsbyImageData
+    const bgImage = data.image.childImageSharp.gatsbyImageData;
 
     return (
         <section id="event-info">
@@ -47,4 +47,4 @@ const WinsportInfo = () => {
     )
 };
 
-export default WinsportInfo
+export default WinsportInfo;

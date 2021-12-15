@@ -51,8 +51,8 @@ module.exports = {
         short_name: `fc-wc`,
         start_url: `/`,
         icon: `src/images/icon-freestyle_canada.png`, 
-        background_color: `#f7f0eb`,
-        theme_color: `#a41890`,
+        background_color: `#fff`,
+        theme_color: `#000`,
       },
     },
     {
@@ -84,7 +84,14 @@ module.exports = {
         url: `https://data.fis-ski.com/services/public/icalendar-feed-fis-events.html?seasoncode=2022&sectorcode=FS&categorycode=WC&disciplinecode=HP`,
       },
     },
-    //  `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-ical`,
+      options: {
+        name: `aerials`,
+        url: `https://data.fis-ski.com/services/public/icalendar-feed-fis-events.html?seasoncode=2022&sectorcode=FS&categorycode=WC&disciplinecode=AE%2CAET`,
+      },
+    },
+     `gatsby-plugin-offline`,
      'babel-plugin-styled-components'
   ],
 }

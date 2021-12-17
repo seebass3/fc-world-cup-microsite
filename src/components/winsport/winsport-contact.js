@@ -15,12 +15,17 @@ const WinsportContact = () => (
                         <p className="text-white"><FormattedMessage id="contact.form_2"/></p>
                         <p className="text-white"><FormattedMessage id="contact.form_3"/></p>
                     </div>
-                    <div className="flex mt-4 mb-4">
+                    <div className="flex mt-4 mb-4 flex-wrap">
                         <a
-                            className="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12"
+                            className="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12 mr-4 mb-4"
                             href="https://forms.gle/CzszinQxV6PMJa3j9"
                             rel="noopener noreferrer"
                             target="_blank"><FormattedMessage id="contact.click"/></a>
+                             <a
+                            className="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12"
+                            href="https://freestylecanada.ski/wp-content/uploads/2021/12/FIS_Covid-19_Media_Guidelines_2021-22.pdf"
+                            rel="noopener noreferrer"
+                            target="_blank"><FormattedMessage id="contact.guidlines"/></a>
                     </div>
                 </div>
             </div>

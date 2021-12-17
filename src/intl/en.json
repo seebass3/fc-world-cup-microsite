@@ -74,6 +74,7 @@
         "include_name": "Your name",
         "include_contact": "Contact info (cell + email)",
         "include_media": "Name of your media organization",
-        "click": "Click here"
+        "click": "Click here",
+        "guidlines": "Covid-19 Media Guidelines"
     }
 }

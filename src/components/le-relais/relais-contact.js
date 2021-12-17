@@ -21,6 +21,11 @@ const RelaisContact = () => (
                             <li><FormattedMessage id="contact.include_contact"/></li>
                             <li><FormattedMessage id="contact.include_media"/></li>
                         </ul>
+                        <a
+                            className="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12"
+                            href="https://freestylecanada.ski/wp-content/uploads/2021/12/FIS_Covid-19_Media_Guidelines_2021-22.pdf"
+                            rel="noopener noreferrer"
+                            target="_blank"><FormattedMessage id="contact.guidlines"/></a>
                     </div>
                 </div>
             </div>

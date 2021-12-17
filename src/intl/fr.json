@@ -78,6 +78,7 @@
         "include_name": "Votre nom",
         "include_contact": "Coordonnées (téléphone + courriel)",
         "include_media": "Nom de votre organisation médiatique",
-        "click": "Cliquez ici"
+        "click": "Cliquez ici",
+        "guidlines": "Lignes directrices COVID-19"
     }
 }

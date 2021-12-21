@@ -3,7 +3,7 @@ import {FormattedMessage} from 'gatsby-plugin-react-intl';
 
 const TremblantSchedule = () => {
     return (
-        <section id="schedule" className="container mx-auto lg:py-12">
+        <section id="schedule" className="container mx-auto py-12">
             <div className="text-center pb-12">
                 <h1>
                     <FormattedMessage id="navigation.schedule"/>

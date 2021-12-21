@@ -38,7 +38,7 @@ const Watch = ({color, stream}) => {
                                 href="https://www.cbc.ca/sports/broadcast"
                                 rel="noopener noreferrer"
                                 target="_blank"
-                                className="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12 m-2"><FormattedMessage id="schedule"/></a>
+                                className="bg-black text-white font-ultra uppercase flex items-center justify-center w-64 h-12 m-2"><FormattedMessage id="navigation.schedule"/></a>
                             {/* <a
                                 href={`${stream}`}
                                 rel="noopener noreferrer"

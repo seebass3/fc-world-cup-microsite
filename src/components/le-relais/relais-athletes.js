@@ -60,7 +60,7 @@ const RelaisAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Marion Thénault</p>
                         <a
                             className="bg-fcOrange pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/marion-thenault/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/marion-thenault/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -75,7 +75,7 @@ const RelaisAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Lewis Irving</p>
                         <a
                             className="bg-fcOrange pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/lewis-irving/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/lewis-irving/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -90,7 +90,7 @@ const RelaisAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Miha Fontaine</p>
                         <a
                             className="bg-fcOrange pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/miha-fontaine/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/miha-fontaine/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -105,7 +105,7 @@ const RelaisAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Émile Nadeau</p>
                         <a
                             className="bg-fcOrange pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/emile-nadeau/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/emile-nadeau/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -120,7 +120,7 @@ const RelaisAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Flavie Aumond</p>
                         <a
                             className="bg-fcOrange pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/flavie-aumond/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/flavie-aumond/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -135,7 +135,7 @@ const RelaisAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Naomy Boudreau-Guertin</p>
                         <a
                             className="bg-fcOrange pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/naomy-boudreau-guertin/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/naomy-boudreau-guertin/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
             </div>

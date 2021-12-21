@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import RelaisLanding from '../components/le-relais/relais-landing';
 import RelaisInfo from '../components/le-relais/relais-info';
 import RelaisSchedule from '../components/le-relais/relais-schedule';
+import Watch from '../components/watch';
 import RelaisAthletes from '../components/le-relais/relais-athletes';
 import RelaisContact from '../components/le-relais/relais-contact';
 import RelaisPartners from '../components/le-relais/relais-partners';
@@ -23,6 +24,7 @@ const LeRelaisPage = () => {
             <RelaisLanding/>
             <RelaisInfo/>
             <RelaisSchedule/>
+            <Watch color="bg-fcOrange" stream=""/>
             <RelaisAthletes/>
             <RelaisContact/>
             <RelaisPartners/>

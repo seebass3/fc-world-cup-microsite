@@ -39,7 +39,7 @@ const RelaisInfo = () => {
                         <p><FormattedMessage id="relais_info.text"/></p>
                         <a
                             className="bg-fcOrange text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
-                            href="https://medias3.fis-ski.com/pdf/2022/FS/8158/2022FS8158INVI.pdf" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="relais_info.button"/></a>
+                            href="https://medias3.fis-ski.com/pdf/2022/FS/8158/2022FS8158INVI.pdf" rel="noopener noreferrer" target="_blank"><FormattedMessage id="relais_info.button"/></a>
                     </div>
                 </div>
             </div>

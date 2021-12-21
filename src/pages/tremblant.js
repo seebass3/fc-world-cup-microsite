@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import TremblantLanding from '../components/tremblant/tremblant-landing';
 import TremblantInfo from '../components/tremblant/tremblant-info';
 import TremblantSchedule from '../components/tremblant/tremblant-schedule';
+import Watch from '../components/watch';
 import TremblantAthletes from '../components/tremblant/tremblant-athletes';
 import TremblantContact from '../components/tremblant/tremblant-contact';
 import TremblantPartners from '../components/tremblant/tremblant-partners';
@@ -23,6 +24,7 @@ const TremblantPage = () => {
             <TremblantLanding/>
             <TremblantInfo/>
             <TremblantSchedule/>
+            <Watch color="bg-fcPurple" stream=""/>
             <TremblantAthletes/>
             <TremblantContact/>
             <TremblantPartners/>

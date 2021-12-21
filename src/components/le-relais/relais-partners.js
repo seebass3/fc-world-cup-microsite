@@ -96,19 +96,19 @@ const RelaisPartners = () => {
             <div className="mx-auto px-4">
                 <div
                     className="grid grid-cols-2 grid-rows-4 lg:grid-cols-7 lg:grid-rows-2 gap-x-5 justify-items-center items-center pb-6">
-                    <a href="https://www.toyota.ca/toyota/en/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={toyota} alt="Toyota Logo"/></a>
-                    <a href="http://en.anta.com/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={anta} alt="Anta Logo"/></a>
-                    <a href="https://www.mackenzieinvestments.com/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={mackenzie} alt="Mackenzie Logo"/></a>
-                    <a href="https://www.canada.ca/en.html" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={canada} alt="Canada Logo"/></a>
-                    <a href="https://b2ten.com/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={b2ten} alt="B2Ten Logo"/></a>
-                    <a href="https://www.toyotires.ca/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={toyo} alt="Toyo Tires Logo"/></a>
-                    <a href="https://www.buff.com/ca/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={buff} alt="Buff Logo"/></a>
-                    <a href="https://www.ownthepodium.org/en-CA/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={otp} alt="Own the Podium Logo"/></a>
-                    <a href="https://auclair.com/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={auclair} alt="Auclair Logo"/></a>
-                    <a href="https://www.djoglobal.com/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={djo} alt="DJO Logo"/></a>
-                    <a href="https://www.quebec.ca/en/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={quebec} alt="Quebec Logo"/></a>
-                    <a href="https://www.skirelais.com/" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={relais} alt="Le Relais Logo"/></a>
-                    <a href="https://www.fis-ski.com/en/freestyle-freeski" rel="noopener noreferrer" to target="_blank"><GatsbyImage image={fis} alt="Fis Logo"/></a>
+                    <a href="https://www.toyota.ca/toyota/en/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={toyota} alt="Toyota Logo"/></a>
+                    <a href="http://en.anta.com/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={anta} alt="Anta Logo"/></a>
+                    <a href="https://www.mackenzieinvestments.com/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={mackenzie} alt="Mackenzie Logo"/></a>
+                    <a href="https://www.canada.ca/en.html" rel="noopener noreferrer" target="_blank"><GatsbyImage image={canada} alt="Canada Logo"/></a>
+                    <a href="https://b2ten.com/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={b2ten} alt="B2Ten Logo"/></a>
+                    <a href="https://www.toyotires.ca/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={toyo} alt="Toyo Tires Logo"/></a>
+                    <a href="https://www.buff.com/ca/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={buff} alt="Buff Logo"/></a>
+                    <a href="https://www.ownthepodium.org/en-CA/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={otp} alt="Own the Podium Logo"/></a>
+                    <a href="https://auclair.com/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={auclair} alt="Auclair Logo"/></a>
+                    <a href="https://www.djoglobal.com/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={djo} alt="DJO Logo"/></a>
+                    <a href="https://www.quebec.ca/en/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={quebec} alt="Quebec Logo"/></a>
+                    <a href="https://www.skirelais.com/" rel="noopener noreferrer" target="_blank"><GatsbyImage image={relais} alt="Le Relais Logo"/></a>
+                    <a href="https://www.fis-ski.com/en/freestyle-freeski" rel="noopener noreferrer" target="_blank"><GatsbyImage image={fis} alt="Fis Logo"/></a>
                 </div>
             </div>
         </section>

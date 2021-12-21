@@ -9,6 +9,7 @@
     "navigation": {
         "info": "Details",
         "schedule": "Schedule",
+        "watch": "Watch",
         "athletes": "Athletes",
         "contact": "Contact",
         "partners": "Partners"
@@ -58,6 +59,12 @@
     "full_schedule": "Full Schedule",
     "media": "Media requests",
     "partners": "Sponsored By",
+    "watch": {
+        "how": "How to Watch in Canada",
+        "brought": "Brought to you by:",
+        "broadcast": "Broadcasting",
+        "stream": "Live Stream"
+    },
     "contact": {
         "submitted": "Successfully submitted!",
         "not_submitted": "There was an error with your submission, please email us using this address: snowrodeo@freestylecanada.ski",

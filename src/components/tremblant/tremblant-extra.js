@@ -114,7 +114,7 @@ const TremblantExtra = () => {
 
                 <a
                     href="https://www.fis-ski.com/DB/freestyle-freeski/freeski/calhttps://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/calendar-results.html?eventselection=&place=&sectorcode=FS&seasoncode=2022&categorycode=WC&disciplinecode=MO,DM&gendercode=&racedate=&racecodex=&nationcode=&seasonmonth=X-2022&saveselection=-1&seasonselection="
-                    rel="noopener noreferrer" to target="_blank"
+                    rel="noopener noreferrer" target="_blank"
                     className="relative extra-item__link">
                     <GatsbyImage
                         objectFit="cover"

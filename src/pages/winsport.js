@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import WinsportLanding from '../components/winsport/winsport-landing';
 import WinsportInfo from '../components/winsport/winsport-info';
 import WinsportSchedule from '../components/winsport/winsport-schedule';
+import Watch from '../components/watch';
 import WinsportAthletes from '../components/winsport/winsport-athletes';
 import WinsportContact from '../components/winsport/winsport-contact';
 import WinsportPartners from '../components/winsport/winsport-partners';
@@ -30,6 +31,7 @@ const WinsportPage = () => {
             <WinsportLanding/>
             <WinsportInfo/>
             <WinsportSchedule/>
+            <Watch color="bg-rodeoGold" stream=""/>
             <WinsportAthletes/>
             <WinsportContact/>
             <WinsportPartners/>

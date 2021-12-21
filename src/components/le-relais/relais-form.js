@@ -95,7 +95,6 @@ const RelaisForm = () => {
                                 <FormattedMessage id="submit"/>
                             </button>
                         </form>}
-
                 </div>
             </div>
         </div>

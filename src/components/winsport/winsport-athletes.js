@@ -77,7 +77,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Cassie Sharpe</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/cassie-sharpe/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/cassie-sharpe/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -92,7 +92,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Noah Bowman</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/noah-bowman/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/noah-bowman/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -107,7 +107,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Rachael Karker</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/rachael-karker/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/rachael-karker/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -122,7 +122,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Simon d'Artois</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/simon-dartois/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/simon-dartois/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -137,7 +137,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Brendan Mackay</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/brendan-mackay/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/brendan-mackay/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -152,7 +152,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Andrew Longino</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/andrew-longino/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/andrew-longino/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -167,7 +167,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Amy Fraser</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/amy-fraser/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/amy-fraser/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -182,7 +182,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Dylan Marineau</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/dylan-marineau/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/dylan-marineau/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -197,7 +197,7 @@ const WinsportAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Evan Marineau</p>
                         <a
                             className="bg-rodeoGold pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/evan-marineau/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/evan-marineau/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
             </div>

@@ -38,7 +38,7 @@ const TremblantInfo = () => {
                         <p><FormattedMessage id="tremblant_info.text"/></p>
                         <a
                             className="bg-fcPurple text-white font-ultra mt-8 uppercase flex items-center justify-center w-64 h-12"
-                            href="https://medias4.fis-ski.com/pdf/2022/FS/8160/2022FS8160INVI.pdf" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="tremblant_info.button"/></a>
+                            href="https://medias4.fis-ski.com/pdf/2022/FS/8160/2022FS8160INVI.pdf" rel="noopener noreferrer" target="_blank"><FormattedMessage id="tremblant_info.button"/></a>
                     </div>
                 </div>
             </div>

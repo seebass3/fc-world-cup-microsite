@@ -70,7 +70,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Mikaël Kingsbury</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/mikael-kingsbury/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/mikael-kingsbury/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -85,7 +85,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Justine Dufour-Lapointe</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/justine-dufour-lapointe/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/justine-dufour-lapointe/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -100,7 +100,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Sofiane Gagnon</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/sofiane-gagnon/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/sofiane-gagnon/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -115,7 +115,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Laurent Dumais</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/laurent-dumais/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/laurent-dumais/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -130,7 +130,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Chloé Dufour-Lapointe</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/chloe-dufour-lapointe/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/chloe-dufour-lapointe/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -145,7 +145,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Brenden Kelly</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/brenden-kelly/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/brenden-kelly/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -160,7 +160,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Gabriel Dufresne</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/gabriel-dufresne/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/gabriel-dufresne/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
                 <div
@@ -175,7 +175,7 @@ const TremblantAthletes = () => {
                         <p className="text-xl text-gray-700 font-bold mb-2">Kerrian Chunlaud</p>
                         <a
                             className="bg-fcPurple pt-1 text-white font-ultra mt-1 uppercase flex items-center justify-center w-48 h-8"
-                            href="https://freestylecanada.ski/team/kerrian-chunlaud/" rel="noopener noreferrer" to target="_blank"><FormattedMessage id="learn_more"/></a>
+                            href="https://freestylecanada.ski/team/kerrian-chunlaud/" rel="noopener noreferrer" target="_blank"><FormattedMessage id="learn_more"/></a>
                     </div>
                 </div>
             </div>

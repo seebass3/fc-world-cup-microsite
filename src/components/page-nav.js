@@ -52,7 +52,14 @@ const PageNav = ({color}) => {
                                             smooth
                                             duration={500}
                                             offset={-72}><FormattedMessage id="navigation.schedule"/></Link>
-
+                                        <Link
+                                            to="watch"
+                                            className="hover:bg-gray-900 text-white px-3 py-2 rounded-md cursor-pointer"
+                                            activeClass='bg-gray-900'
+                                            spy={true}
+                                            smooth
+                                            duration={500}
+                                            offset={-72}><FormattedMessage id="navigation.watch"/></Link>
                                         <Link
                                             to="athletes"
                                             className="hover:bg-gray-900 text-white px-3 py-2 rounded-md cursor-pointer"
@@ -90,6 +97,6 @@ const PageNav = ({color}) => {
 
 PageNav.propTypes = {
     color: PropTypes.string.isRequired
-  };
+};
 
 export default PageNav;

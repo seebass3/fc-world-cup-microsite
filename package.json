@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "fc-wc-microsite",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Freestyle Canada World Cup microsite",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sebastien Berthiaume",
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "cross-env": "^7.0.3",
